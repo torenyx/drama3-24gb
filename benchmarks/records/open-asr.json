@@ -1,0 +1,61 @@
+{
+  "asr_model": "<MODEL_ROOT>/asr/qwen3_asr_0.6b_bf16.safetensors",
+  "language": "English",
+  "expected": " Welcome. Today we are testing a local speech generation system. The reference recording and its transcript are included, so you can run the same example on your own computer.\n\n\n\n How does the voice change when we use a different inference engine? Listen to the timing, the pronunciation, and the way each sentence ends.\n\n\n\n Thank you for listening. You can replace this script and the reference recording with your own material.\n",
+  "normalized_expected": "WelcomeTodaywearetestingalocalspeechgenerationsystemThereferencerecordinganditstranscriptareincludedsoyoucanrunthesameexampleonyourowncomputerHowdoesthevoicechangewhenweuseadifferentinferenceengineListentothetimingthepronunciationandthewayeachsentenceendsThankyouforlisteningYoucanreplacethisscriptandthereferencerecordingwithyourownmaterial",
+  "note": "CER is an ASR transcript diagnostic; spelling differences need review. No voice-similarity score.",
+  "samples": [
+    {
+      "file": "a-clean/seed-1.wav",
+      "transcript": "Welcome. Today we are testing a local speech generation system. The reference recording and its transcript are included, so you can run the same example on your own computer. How does the voice change when we use a different inference engine? Listen to the timing, the pronunciation, and the way each sentence ends. Thank you for listening. You can replace this script and the reference recording with your own material.",
+      "normalized": "WelcomeTodaywearetestingalocalspeechgenerationsystemThereferencerecordinganditstranscriptareincludedsoyoucanrunthesameexampleonyourowncomputerHowdoesthevoicechangewhenweuseadifferentinferenceengineListentothetimingthepronunciationandthewayeachsentenceendsThankyouforlisteningYoucanreplacethisscriptandthereferencerecordingwithyourownmaterial",
+      "cer": 0.0,
+      "edits": [],
+      "asr_seconds": 2.0239847656339407
+    },
+    {
+      "file": "b-clean/Vulkan3-seed-1.wav",
+      "transcript": "Welcome. Today we are testing a local speech generation system. The reference recording and its transcript are included so you can run the same example on your own computer. How does the voice change when we use a different inference engine? Listen to the timing, the pronunciation, and the way each sentence ends. Thank you for listening. You can replace this script and the reference recording with your own material.",
+      "normalized": "WelcomeTodaywearetestingalocalspeechgenerationsystemThereferencerecordinganditstranscriptareincludedsoyoucanrunthesameexampleonyourowncomputerHowdoesthevoicechangewhenweuseadifferentinferenceengineListentothetimingthepronunciationandthewayeachsentenceendsThankyouforlisteningYoucanreplacethisscriptandthereferencerecordingwithyourownmaterial",
+      "cer": 0.0,
+      "edits": [],
+      "asr_seconds": 1.1014229841530323
+    },
+    {
+      "file": "c-clean-managed/trial-0.wav",
+      "transcript": "Welcome. Today we are testing a local speech generation system. The reference recording and its transcript are included, so you can run the same example on your own computer. How does the voice change when we use a different inference engine? Listen to the timing, the pronunciation, and the way each sentence ends. Thank you for listening. You can replace this script and the reference recording with your own material.",
+      "normalized": "WelcomeTodaywearetestingalocalspeechgenerationsystemThereferencerecordinganditstranscriptareincludedsoyoucanrunthesameexampleonyourowncomputerHowdoesthevoicechangewhenweuseadifferentinferenceengineListentothetimingthepronunciationandthewayeachsentenceendsThankyouforlisteningYoucanreplacethisscriptandthereferencerecordingwithyourownmaterial",
+      "cer": 0.0,
+      "edits": [],
+      "asr_seconds": 1.1076269671320915
+    },
+    {
+      "file": "c-clean-managed/trial-1.wav",
+      "transcript": "Welcome. Today we are testing a local speech generation system. The reference recording and its transcript are included so you can run the same example on your own computer. How does the voice change when we use a different inference engine? Listen to the timing, the pronunciation, and the way each sentence ends. Thank you for listening. You can replace this script and their reference recording with your own material.",
+      "normalized": "WelcomeTodaywearetestingalocalspeechgenerationsystemThereferencerecordinganditstranscriptareincludedsoyoucanrunthesameexampleonyourowncomputerHowdoesthevoicechangewhenweuseadifferentinferenceengineListentothetimingthepronunciationandthewayeachsentenceendsThankyouforlisteningYoucanreplacethisscriptandtheirreferencerecordingwithyourownmaterial",
+      "cer": 0.005865102639296188,
+      "edits": [
+        {
+          "kind": "insert",
+          "expected": "",
+          "heard": "ir"
+        }
+      ],
+      "asr_seconds": 1.0888863671571016
+    },
+    {
+      "file": "c-clean-final/trial-0.wav",
+      "transcript": "Welcome. Today we are testing a local speech generation system. The reference recording and its transcript are included, so you can run the same example on your own computer. How does the voice change when we use a different inference engine? Listen to the timing, the pronunciation, and the way each sentence ends. Thank you for listening. You can replace the script and the reference recording with your own material.",
+      "normalized": "WelcomeTodaywearetestingalocalspeechgenerationsystemThereferencerecordinganditstranscriptareincludedsoyoucanrunthesameexampleonyourowncomputerHowdoesthevoicechangewhenweuseadifferentinferenceengineListentothetimingthepronunciationandthewayeachsentenceendsThankyouforlisteningYoucanreplacethescriptandthereferencerecordingwithyourownmaterial",
+      "cer": 0.005865102639296188,
+      "edits": [
+        {
+          "kind": "replace",
+          "expected": "is",
+          "heard": "e"
+        }
+      ],
+      "asr_seconds": 1.1049883980304003
+    }
+  ]
+}

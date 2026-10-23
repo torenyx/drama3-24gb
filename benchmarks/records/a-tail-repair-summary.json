@@ -1,0 +1,324 @@
+{
+  "samples": [
+    {
+      "seed": 0,
+      "request_seconds": 21.16801810450852,
+      "audio_seconds": 29.047573696145125,
+      "retries": 0,
+      "stalled_attempts": 0,
+      "first_chunk_unchanged": true,
+      "whole_pcm_unchanged": true,
+      "transcript": "レンジ君、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。",
+      "edits": [
+        {
+          "kind": "replace",
+          "expected": "デ",
+          "heard": "レ"
+        },
+        {
+          "kind": "delete",
+          "expected": "う",
+          "heard": ""
+        }
+      ],
+      "cer": 0.016666666666666666,
+      "missing_target_phrases": []
+    },
+    {
+      "seed": 1,
+      "request_seconds": 12.452222183346748,
+      "audio_seconds": 28.489977324263037,
+      "retries": 0,
+      "stalled_attempts": 0,
+      "first_chunk_unchanged": true,
+      "whole_pcm_unchanged": true,
+      "transcript": "千次くん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。",
+      "edits": [
+        {
+          "kind": "replace",
+          "expected": "デンジ君",
+          "heard": "千次くん"
+        },
+        {
+          "kind": "delete",
+          "expected": "う",
+          "heard": ""
+        }
+      ],
+      "cer": 0.041666666666666664,
+      "missing_target_phrases": []
+    },
+    {
+      "seed": 2,
+      "request_seconds": 38.73527215979993,
+      "audio_seconds": 30.23641723356009,
+      "retries": 1,
+      "stalled_attempts": 1,
+      "first_chunk_unchanged": true,
+      "whole_pcm_unchanged": false,
+      "transcript": "ベンジくん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょう。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。",
+      "edits": [
+        {
+          "kind": "replace",
+          "expected": "デ",
+          "heard": "ベ"
+        },
+        {
+          "kind": "replace",
+          "expected": "君",
+          "heard": "くん"
+        }
+      ],
+      "cer": 0.025,
+      "missing_target_phrases": []
+    },
+    {
+      "seed": 3,
+      "request_seconds": 61.290420562028885,
+      "audio_seconds": 29.516485260770974,
+      "retries": 0,
+      "stalled_attempts": 0,
+      "transcript": "テンジくん、こっちに来て、少しお話しようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。",
+      "edits": [
+        {
+          "kind": "replace",
+          "expected": "デ",
+          "heard": "テ"
+        },
+        {
+          "kind": "replace",
+          "expected": "君",
+          "heard": "くん"
+        },
+        {
+          "kind": "delete",
+          "expected": "し",
+          "heard": ""
+        },
+        {
+          "kind": "delete",
+          "expected": "う",
+          "heard": ""
+        }
+      ],
+      "cer": 0.041666666666666664,
+      "missing_target_phrases": []
+    },
+    {
+      "seed": 4,
+      "request_seconds": 62.77050461061299,
+      "audio_seconds": 28.293537414965986,
+      "retries": 1,
+      "stalled_attempts": 1,
+      "transcript": "千次君こっちに来て少しお話しようかそんなに緊張しなくていいよ君のことをもう少し知りたいだけだから難しいことは私に任せて君は聞かれたことに正直に答えてくれればいいのね簡単でしょいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい",
+      "edits": [
+        {
+          "kind": "replace",
+          "expected": "デンジ",
+          "heard": "千次"
+        },
+        {
+          "kind": "delete",
+          "expected": "し",
+          "heard": ""
+        },
+        {
+          "kind": "delete",
+          "expected": "ううん",
+          "heard": ""
+        }
+      ],
+      "cer": 0.058333333333333334,
+      "missing_target_phrases": []
+    },
+    {
+      "seed": 5,
+      "request_seconds": 51.018672715872526,
+      "audio_seconds": 27.843378684807256,
+      "retries": 0,
+      "stalled_attempts": 0,
+      "transcript": "ベンジくん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。",
+      "edits": [
+        {
+          "kind": "replace",
+          "expected": "デ",
+          "heard": "ベ"
+        },
+        {
+          "kind": "replace",
+          "expected": "君",
+          "heard": "くん"
+        },
+        {
+          "kind": "delete",
+          "expected": "う",
+          "heard": ""
+        }
+      ],
+      "cer": 0.03333333333333333,
+      "missing_target_phrases": []
+    }
+  ],
+  "events": [
+    {
+      "seed": 0,
+      "chunk": 0,
+      "retry": 0,
+      "frames": 298,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 0,
+      "chunk": 1,
+      "retry": 0,
+      "frames": 373,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 0,
+      "chunk": 2,
+      "retry": 0,
+      "frames": 60,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 1,
+      "chunk": 0,
+      "retry": 0,
+      "frames": 272,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 1,
+      "chunk": 1,
+      "retry": 0,
+      "frames": 356,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 1,
+      "chunk": 2,
+      "retry": 0,
+      "frames": 63,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 2,
+      "chunk": 0,
+      "retry": 0,
+      "frames": 273,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 2,
+      "chunk": 1,
+      "retry": 0,
+      "frames": 338,
+      "stalled": true,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 2,
+      "chunk": 1,
+      "retry": 1,
+      "frames": 354,
+      "stalled": false,
+      "semantic_fallback": true
+    },
+    {
+      "seed": 2,
+      "chunk": 2,
+      "retry": 0,
+      "frames": 65,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 3,
+      "chunk": 0,
+      "retry": 0,
+      "frames": 314,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 3,
+      "chunk": 1,
+      "retry": 0,
+      "frames": 442,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 3,
+      "chunk": 2,
+      "retry": 0,
+      "frames": 68,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 4,
+      "chunk": 0,
+      "retry": 0,
+      "frames": 10,
+      "stalled": true,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 4,
+      "chunk": 0,
+      "retry": 1,
+      "frames": 243,
+      "stalled": false,
+      "semantic_fallback": true
+    },
+    {
+      "seed": 4,
+      "chunk": 1,
+      "retry": 0,
+      "frames": 382,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 4,
+      "chunk": 2,
+      "retry": 0,
+      "frames": 65,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 5,
+      "chunk": 0,
+      "retry": 0,
+      "frames": 268,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 5,
+      "chunk": 1,
+      "retry": 0,
+      "frames": 347,
+      "stalled": false,
+      "semantic_fallback": false
+    },
+    {
+      "seed": 5,
+      "chunk": 2,
+      "retry": 0,
+      "frames": 61,
+      "stalled": false,
+      "semantic_fallback": false
+    }
+  ]
+}

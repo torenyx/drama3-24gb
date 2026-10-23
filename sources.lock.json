@@ -1,0 +1,30 @@
+{
+  "comfy-drama3": {
+    "repository": "https://github.com/PedroMarinhoDev/ComfyUI-Drama3",
+    "commit": "67a733a96890637dc27b1914974ad00c569405fb",
+    "commit_date": "2026-10-17T12:56:49Z"
+  },
+  "speech-cpp": {
+    "repository": "https://github.com/nyosegawa/speech.cpp",
+    "commit": "d074e1b9d84fe5ec530c959292ffe3d94ffd288b",
+    "commit_date": "2026-10-21T19:04:43Z"
+  },
+  "fish-speech": {
+    "repository": "https://github.com/fishaudio/fish-speech",
+    "commit": "541566932abbaebcb0a40e562a1f846738383f38",
+    "commit_date": "2026-10-14T06:14:37Z"
+  },
+  "comfyui": {
+    "repository": "https://github.com/Comfy-Org/ComfyUI",
+    "commit": "a071826fd36147da6a81e9e91257df9968a4b06b"
+  },
+  "sglang-omni": {
+    "repository": "https://github.com/sgl-project/sglang-omni",
+    "commit": "1e8dcd26f9b960a0fa8739f89d0f4ea68e77d195"
+  },
+  "int4-quantizer": {
+    "url": "https://huggingface.co/fishaudio/drama-3-int4/resolve/a6f588691a13b6607cb09f9800556487ab7aa0fe/quantize.py",
+    "file": "drama3-int4-quantize.py",
+    "revision": "a6f588691a13b6607cb09f9800556487ab7aa0fe"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parts": [
+    "<|speaker:0|>[Calm and clear, with a warm conversational tone] Welcome. Today we are testing a local speech generation system. The reference recording and its transcript are included, so you can run the same example on your own computer.",
+    "<|speaker:0|>[Slightly curious] How does the voice change when we use a different inference engine? Listen to the timing, the pronunciation, and the way each sentence ends.",
+    "<|speaker:0|>[Warm and relaxed] Thank you for listening. You can replace this script and the reference recording with your own material."
+  ],
+  "top_p": 1.0,
+  "temperature": 1.0,
+  "takes": [
+    {
+      "trial": 0,
+      "request_seconds": 26.59470498934388,
+      "audio_seconds": 25.981269841269842,
+      "part_request_ids": [
+        "speech-a0202632-d844-4de4-89b7-6243a7f06e44",
+        "speech-4be406f7-5b35-41db-98e8-2a28de5d9718",
+        "speech-319829cc-52ed-4591-a523-83536ebdf185"
+      ]
+    },
+    {
+      "trial": 1,
+      "request_seconds": 4.813934778794646,
+      "audio_seconds": 26.538548752834465,
+      "part_request_ids": [
+        "speech-ae4fc612-efe0-442b-8345-d45bc2da6ae3",
+        "speech-0a158575-7754-4224-a74c-66931c69c953",
+        "speech-5b30e8aa-dac4-4417-a2b3-e100edddbf07"
+      ]
+    }
+  ],
+  "note": "Independent requests with identical references, no generated-audio history; PCM16 join with gap."
+}

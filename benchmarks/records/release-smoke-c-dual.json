@@ -1,0 +1,22 @@
+{
+  "parts": [
+    "<|speaker:0|>[穏やかで柔らかい声。親しげに、落ち着いた速さで] デンジ君、こっちに来て。少し、お話ししようか。\n\nそんなに緊張しなくていいよ。君のことを、もう少し知りたいだけだから。",
+    "[微笑みを含んだ声で、静かな確信を込めて] 難しいことは、私に任せて。君は、聞かれたことに正直に答えてくれればいいの。\n\nね、簡単でしょう？",
+    "[優しく、満足げに] うん、いい子だね。\n\nじゃあ、聞かせて。君はこれから、どんな暮らしがしたい？"
+  ],
+  "top_p": 1.0,
+  "temperature": 1.0,
+  "takes": [
+    {
+      "trial": 0,
+      "request_seconds": 19.698118487372994,
+      "audio_seconds": 26.770748299319727,
+      "part_request_ids": [
+        "speech-e51dec15-c4f6-42cc-85fc-8f8925b979fc",
+        "speech-081d5a56-76bc-4b58-8be5-4129d46a9e69",
+        "speech-b5dacb6c-ece2-412a-ad0e-40cf318503a0"
+      ]
+    }
+  ],
+  "note": "Independent requests with identical references, no generated-audio history; PCM16 join with gap."
+}

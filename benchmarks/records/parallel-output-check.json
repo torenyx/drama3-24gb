@@ -1,0 +1,14 @@
+{
+  "0": {
+    "single_equals_dual_gpu2": true,
+    "dual_gpu2_equals_gpu3": true
+  },
+  "1": {
+    "single_equals_dual_gpu2": true,
+    "dual_gpu2_equals_gpu3": true
+  },
+  "2": {
+    "single_equals_dual_gpu2": true,
+    "dual_gpu2_equals_gpu3": true
+  }
+}

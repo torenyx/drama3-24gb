@@ -1,0 +1,9 @@
+<|speaker:0|>[Calm and clear, with a warm conversational tone] Welcome. Today we are testing a local speech generation system. The reference recording and its transcript are included, so you can run the same example on your own computer.
+
+[pause]
+
+<|speaker:0|>[Slightly curious] How does the voice change when we use a different inference engine? Listen to the timing, the pronunciation, and the way each sentence ends.
+
+[pause]
+
+<|speaker:0|>[Warm and relaxed] Thank you for listening. You can replace this script and the reference recording with your own material.

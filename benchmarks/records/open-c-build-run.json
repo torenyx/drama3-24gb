@@ -1,0 +1,19 @@
+{
+  "profile": "c-int4",
+  "gpus": 1,
+  "python": "<PROJECT_ROOT>/.venv-c-int4/bin/python",
+  "source": "<MODEL_ROOT>/drama-3",
+  "converted": "<MODEL_ROOT>/derived/sglang-int4",
+  "assets": "<PROJECT_ROOT>/examples/librispeech",
+  "prompt": "<PROJECT_ROOT>/examples/librispeech/prompt.txt",
+  "output": "<RUN_ROOT>/rebuilt-public/c-clean-managed",
+  "stages_seconds": {
+    "reference_preparation": 13.318341869860888,
+    "service_ready": 330.05452501401305,
+    "runner": 31.862910674884915
+  },
+  "status": "completed",
+  "timing": "Wall time includes preparation, startup and client overhead; excludes prior model download.",
+  "conversion_reused": true,
+  "wall_seconds": 375.24497081153095
+}

@@ -1,0 +1,72 @@
+{
+  "a-fast-isolated-codec": [
+    {
+      "seed": 0,
+      "request_seconds": 36.020004266873,
+      "generation_seconds": 34.94481033273041,
+      "decode_seconds": 1.0746841691434383,
+      "audio_seconds": 29.047573696145125,
+      "codes_equal": true,
+      "pcm_equal": true,
+      "pcm_max_abs_difference": 0.0,
+      "pcm_snr_db": 269.4429318993631
+    },
+    {
+      "seed": 1,
+      "request_seconds": 15.883940529078245,
+      "generation_seconds": 15.29064648039639,
+      "decode_seconds": 0.592564795166254,
+      "audio_seconds": 28.489977324263037,
+      "codes_equal": true,
+      "pcm_equal": true,
+      "pcm_max_abs_difference": 0.0,
+      "pcm_snr_db": 272.07891169866497
+    },
+    {
+      "seed": 2,
+      "request_seconds": 19.217522773891687,
+      "generation_seconds": 18.598487237468362,
+      "decode_seconds": 0.6183904781937599,
+      "audio_seconds": 25.657619047619047,
+      "codes_equal": true,
+      "pcm_equal": true,
+      "pcm_max_abs_difference": 0.0,
+      "pcm_snr_db": 271.0656426631083
+    }
+  ],
+  "a-fast-resident-isolated": [
+    {
+      "seed": 0,
+      "request_seconds": 21.20749525912106,
+      "generation_seconds": 20.24459912441671,
+      "decode_seconds": 0.9617539271712303,
+      "audio_seconds": 29.047573696145125,
+      "codes_equal": true,
+      "pcm_equal": true,
+      "pcm_max_abs_difference": 0.0,
+      "pcm_snr_db": 269.4429318993631
+    },
+    {
+      "seed": 1,
+      "request_seconds": 12.447832250967622,
+      "generation_seconds": 11.855348503217101,
+      "decode_seconds": 0.5917853526771069,
+      "audio_seconds": 28.489977324263037,
+      "codes_equal": true,
+      "pcm_equal": true,
+      "pcm_max_abs_difference": 0.0,
+      "pcm_snr_db": 272.07891169866497
+    },
+    {
+      "seed": 2,
+      "request_seconds": 15.75853175111115,
+      "generation_seconds": 15.174466339871287,
+      "decode_seconds": 0.5834467727690935,
+      "audio_seconds": 25.657619047619047,
+      "codes_equal": true,
+      "pcm_equal": true,
+      "pcm_max_abs_difference": 0.0,
+      "pcm_snr_db": 271.0656426631083
+    }
+  ]
+}

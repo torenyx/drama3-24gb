@@ -1,0 +1,8 @@
+{
+  "baseline_references": ["librispeech-1272"],
+  "references": [{
+    "id": "librispeech-1272",
+    "audio": "reference.flac",
+    "transcript": "Mister Quilter is the apostle of the middle classes and we are glad to welcome his gospel."
+  }]
+}

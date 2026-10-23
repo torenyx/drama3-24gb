@@ -1,0 +1,10 @@
+{
+  "baseline_references": ["reference"],
+  "references": [
+    {
+      "id": "reference",
+      "audio": "reference.wav",
+      "transcript": "Put the exact words spoken in reference.wav here."
+    }
+  ]
+}

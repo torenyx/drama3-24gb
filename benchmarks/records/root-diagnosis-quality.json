@@ -1,0 +1,757 @@
+{
+  "c-root-traced-baseline": {
+    "samples": 8,
+    "long_silence_over10s": 3,
+    "large_omissions": 4,
+    "cer_median": 0.15,
+    "request_seconds": [
+      5.948052693158388,
+      5.7564438208937645,
+      5.820407152175903,
+      4.48877408914268,
+      9.734881835058331,
+      6.561587335541844,
+      8.119799917563796,
+      6.00276810862124
+    ],
+    "records": [
+      {
+        "file": "c-root-traced-baseline/trial-0.wav",
+        "seconds": 30.743219954648527,
+        "longest_silence_seconds": 2.1,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.025,
+        "large_deletions": [],
+        "transcript": "レンジくん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-traced-baseline/trial-1.wav",
+        "seconds": 32.92589569160998,
+        "longest_silence_seconds": 21.3,
+        "tail_silence_seconds": 21.3,
+        "cer": 0.6166666666666667,
+        "large_deletions": [
+          "難しいことは私に任せて君は聞かれたことに正直に答えてくれればいいのね簡単でしょううんいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "天時くん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。"
+      },
+      {
+        "file": "c-root-traced-baseline/trial-2.wav",
+        "seconds": 33.29741496598639,
+        "longest_silence_seconds": 3.1,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.03333333333333333,
+        "large_deletions": [],
+        "transcript": "デンジくん、こっちに来て。少しお話しよか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね？簡単でしょう。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-traced-baseline/trial-3.wav",
+        "seconds": 25.541950113378686,
+        "longest_silence_seconds": 2.1,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.275,
+        "large_deletions": [
+          "うんいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "レンジくん、こっちに来て。少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。"
+      },
+      {
+        "file": "c-root-traced-baseline/trial-4.wav",
+        "seconds": 55.72789115646258,
+        "longest_silence_seconds": 26.6,
+        "tail_silence_seconds": 26.6,
+        "cer": 0.275,
+        "large_deletions": [
+          "うんいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "デンジくん、こっちに来て少しお話しようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね？簡単でしょう。"
+      },
+      {
+        "file": "c-root-traced-baseline/trial-5.wav",
+        "seconds": 37.477006802721085,
+        "longest_silence_seconds": 2.2,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.03333333333333333,
+        "large_deletions": [],
+        "transcript": "千次くん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-traced-baseline/trial-6.wav",
+        "seconds": 46.57922902494331,
+        "longest_silence_seconds": 19.900000000000002,
+        "tail_silence_seconds": 19.900000000000002,
+        "cer": 0.26666666666666666,
+        "large_deletions": [
+          "ううんいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "レンジ君、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょ。"
+      },
+      {
+        "file": "c-root-traced-baseline/trial-7.wav",
+        "seconds": 34.365532879818595,
+        "longest_silence_seconds": 2.4000000000000004,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.016666666666666666,
+        "large_deletions": [],
+        "transcript": "デンジくん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて、君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      }
+    ]
+  },
+  "c-root-single-reference": {
+    "samples": 8,
+    "long_silence_over10s": 7,
+    "large_omissions": 7,
+    "cer_median": 0.43333333333333335,
+    "request_seconds": [
+      9.065210742875934,
+      7.441326530650258,
+      6.272064136341214,
+      4.030510660260916,
+      4.9299969263374805,
+      8.405222894623876,
+      5.0544290244579315,
+      4.592885624617338
+    ],
+    "records": [
+      {
+        "file": "c-root-single-reference/trial-0.wav",
+        "seconds": 53.22013605442177,
+        "longest_silence_seconds": 21.0,
+        "tail_silence_seconds": 21.0,
+        "cer": 0.21666666666666667,
+        "large_deletions": [
+          "じゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "デンジくん、こっちに来て、少しお話しようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて、君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。うん、いい子だね。"
+      },
+      {
+        "file": "c-root-single-reference/trial-1.wav",
+        "seconds": 43.653514739229024,
+        "longest_silence_seconds": 21.200000000000003,
+        "tail_silence_seconds": 21.200000000000003,
+        "cer": 0.2833333333333333,
+        "large_deletions": [
+          "うんいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "レンジくん、こっちに来て少しお話しようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて、君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。"
+      },
+      {
+        "file": "c-root-single-reference/trial-2.wav",
+        "seconds": 36.78040816326531,
+        "longest_silence_seconds": 23.400000000000002,
+        "tail_silence_seconds": 23.400000000000002,
+        "cer": 0.6,
+        "large_deletions": [
+          "難しいことは私に任せて君は聞かれたことに正直に答えてくれればいいのね簡単でしょううんいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "デンジくん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。"
+      },
+      {
+        "file": "c-root-single-reference/trial-3.wav",
+        "seconds": 23.45215419501134,
+        "longest_silence_seconds": 19.200000000000003,
+        "tail_silence_seconds": 19.200000000000003,
+        "cer": 0.8666666666666667,
+        "large_deletions": [
+          "そんなに緊張しなくていいよ君のことをもう少し知りたいだけだから難しいことは私に任せて君は聞かれたことに正直に答えてくれればいいのね簡単でしょううんいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "レンジくん、こっちに来て、少しお話ししようか。"
+      },
+      {
+        "file": "c-root-single-reference/trial-4.wav",
+        "seconds": 28.792743764172336,
+        "longest_silence_seconds": 1.1,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.008333333333333333,
+        "large_deletions": [],
+        "transcript": "エンジ君、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて、君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-single-reference/trial-5.wav",
+        "seconds": 49.13342403628118,
+        "longest_silence_seconds": 24.0,
+        "tail_silence_seconds": 24.0,
+        "cer": 0.26666666666666666,
+        "large_deletions": [
+          "うんいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "デンジくん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて、君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。"
+      },
+      {
+        "file": "c-root-single-reference/trial-6.wav",
+        "seconds": 29.489342403628118,
+        "longest_silence_seconds": 18.5,
+        "tail_silence_seconds": 18.5,
+        "cer": 0.5833333333333334,
+        "large_deletions": [
+          "難しいことは私に任せて君は聞かれたことに正直に答えてくれればいいのね簡単でしょううんいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "デンジ君、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。"
+      },
+      {
+        "file": "c-root-single-reference/trial-7.wav",
+        "seconds": 26.79582766439909,
+        "longest_silence_seconds": 16.1,
+        "tail_silence_seconds": 16.1,
+        "cer": 0.5833333333333334,
+        "large_deletions": [
+          "難しいことは私に任せて君は聞かれたことに正直に答えてくれればいいのね簡単でしょううんいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "デンジ君、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。"
+      }
+    ]
+  },
+  "c-root-top-p1": {
+    "samples": 8,
+    "long_silence_over10s": 0,
+    "large_omissions": 1,
+    "cer_median": 0.041666666666666664,
+    "request_seconds": [
+      3.9594241213053465,
+      5.075355626642704,
+      5.697335619479418,
+      4.891144577413797,
+      5.348893523216248,
+      5.1329326294362545,
+      4.787943297997117,
+      5.533584460616112
+    ],
+    "records": [
+      {
+        "file": "c-root-top-p1/trial-0.wav",
+        "seconds": 22.47691609977324,
+        "longest_silence_seconds": 1.1,
+        "tail_silence_seconds": 0.9,
+        "cer": 0.25,
+        "large_deletions": [
+          "うんいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "デンジ君、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。"
+      },
+      {
+        "file": "c-root-top-p1/trial-1.wav",
+        "seconds": 29.024943310657598,
+        "longest_silence_seconds": 1.0,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.058333333333333334,
+        "large_deletions": [],
+        "transcript": "レンジくん、こっちに来て。少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少しや知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。うん、いい子だね。ノーを聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-top-p1/trial-2.wav",
+        "seconds": 32.69369614512472,
+        "longest_silence_seconds": 1.6,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.025,
+        "large_deletions": [],
+        "transcript": "デンジくん、こっちに来て。少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたいね。"
+      },
+      {
+        "file": "c-root-top-p1/trial-3.wav",
+        "seconds": 27.956825396825398,
+        "longest_silence_seconds": 1.3,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.041666666666666664,
+        "large_deletions": [],
+        "transcript": "デンジくん、こっちに来て少しお話ししようか。こんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね？簡単でしょう。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-top-p1/trial-4.wav",
+        "seconds": 30.603900226757368,
+        "longest_silence_seconds": 1.2000000000000002,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.041666666666666664,
+        "large_deletions": [],
+        "transcript": "天時くん、こっちに来て、少しお話しようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょう。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-top-p1/trial-5.wav",
+        "seconds": 29.350022675736962,
+        "longest_silence_seconds": 1.2000000000000002,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.041666666666666664,
+        "large_deletions": [],
+        "transcript": "大恩子くん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて、君は聞かれたことに正直に答えてくれればいいの。ね？簡単でしょう。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい？"
+      },
+      {
+        "file": "c-root-top-p1/trial-6.wav",
+        "seconds": 27.353106575963718,
+        "longest_silence_seconds": 1.3,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.025,
+        "large_deletions": [],
+        "transcript": "レンジくん、こっちに来て。少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-top-p1/trial-7.wav",
+        "seconds": 31.579138321995465,
+        "longest_silence_seconds": 2.0,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.008333333333333333,
+        "large_deletions": [],
+        "transcript": "レンジ君、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて、君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      }
+    ]
+  },
+  "a-root-baseline": {
+    "samples": 1,
+    "long_silence_over10s": 0,
+    "large_omissions": 0,
+    "cer_median": 0.041666666666666664,
+    "request_seconds": [
+      27.76532824896276
+    ],
+    "records": [
+      {
+        "file": "a-root-baseline/seed-1.wav",
+        "seconds": 28.489977324263037,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.0,
+        "cer": 0.041666666666666664,
+        "large_deletions": [],
+        "transcript": "千次くん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      }
+    ]
+  },
+  "a-root-semantic-crossing": {
+    "samples": 3,
+    "long_silence_over10s": 0,
+    "large_omissions": 2,
+    "cer_median": 0.425,
+    "request_seconds": [
+      22.735596960410476,
+      15.265990797430277,
+      42.41787508316338
+    ],
+    "records": [
+      {
+        "file": "a-root-semantic-crossing/seed-0.wav",
+        "seconds": 28.021700680272108,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.025,
+        "large_deletions": [],
+        "transcript": "レンジ君、こっちに来て、少しお話しようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "a-root-semantic-crossing/seed-1.wav",
+        "seconds": 19.059274376417232,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.0,
+        "cer": 0.5416666666666666,
+        "large_deletions": [
+          "デンジ君こっちに来て少しお話ししようかそんなに緊張しなくていいよ君のことをもう少し知りたいだけだから",
+          "ううんいい子だねじゃあ聞かせて"
+        ],
+        "transcript": "難しいことは私に任せて、君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょ？君はこれからどんな暮らしがしたい？"
+      },
+      {
+        "file": "a-root-semantic-crossing/seed-2.wav",
+        "seconds": 20.905714285714286,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.425,
+        "large_deletions": [
+          "デンジ君こっちに来て少しお話ししようかそんなに緊張しなくていいよ君のことをもう少し知りたいだけだから"
+        ],
+        "transcript": "難しいことは私に任せて、君は聞かれたことに正直に答えてくれればいいの。ね？簡単でしょ？うん。いい子だね。じゃあ、聞かせて、君はこれからどんな暮らしがしたい？"
+      }
+    ]
+  },
+  "c-root-top-p1-temp08": {
+    "samples": 8,
+    "long_silence_over10s": 2,
+    "large_omissions": 2,
+    "cer_median": 0.029166666666666667,
+    "request_seconds": [
+      6.060296365991235,
+      8.063462927937508,
+      6.589623987674713,
+      4.998698191717267,
+      6.263590838760138,
+      8.457876512780786,
+      7.174855794757605,
+      6.635808454826474
+    ],
+    "records": [
+      {
+        "file": "c-root-top-p1-temp08/trial-0.wav",
+        "seconds": 34.08689342403628,
+        "longest_silence_seconds": 22.400000000000002,
+        "tail_silence_seconds": 22.400000000000002,
+        "cer": 0.6083333333333333,
+        "large_deletions": [
+          "難しいことは私に任せて君は聞かれたことに正直に答えてくれればいいのね簡単でしょううんいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "レンジくん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。"
+      },
+      {
+        "file": "c-root-top-p1-temp08/trial-1.wav",
+        "seconds": 46.11482993197279,
+        "longest_silence_seconds": 19.0,
+        "tail_silence_seconds": 19.0,
+        "cer": 0.2833333333333333,
+        "large_deletions": [
+          "うんいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+        ],
+        "transcript": "天時くん、こっちに来て。少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょう。"
+      },
+      {
+        "file": "c-root-top-p1-temp08/trial-2.wav",
+        "seconds": 37.61632653061225,
+        "longest_silence_seconds": 3.3000000000000003,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.041666666666666664,
+        "large_deletions": [],
+        "transcript": "天時くん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょ。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-top-p1-temp08/trial-3.wav",
+        "seconds": 28.560544217687074,
+        "longest_silence_seconds": 1.0,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.016666666666666666,
+        "large_deletions": [],
+        "transcript": "デンジくん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょう。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-top-p1-temp08/trial-4.wav",
+        "seconds": 35.944489795918365,
+        "longest_silence_seconds": 2.1,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.025,
+        "large_deletions": [],
+        "transcript": "レンジくんこっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね簡単でしょう。うんいい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-top-p1-temp08/trial-5.wav",
+        "seconds": 48.48326530612245,
+        "longest_silence_seconds": 9.700000000000001,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.016666666666666666,
+        "large_deletions": [],
+        "transcript": "デンジくん、こっちに来て。少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-top-p1-temp08/trial-6.wav",
+        "seconds": 41.05287981859411,
+        "longest_silence_seconds": 5.9,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.016666666666666666,
+        "large_deletions": [],
+        "transcript": "デンジくん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね？簡単でしょう。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい？"
+      },
+      {
+        "file": "c-root-top-p1-temp08/trial-7.wav",
+        "seconds": 38.034285714285716,
+        "longest_silence_seconds": 4.0,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.03333333333333333,
+        "large_deletions": [],
+        "transcript": "展示官、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      }
+    ]
+  },
+  "c-root-chunked-p1": {
+    "samples": 8,
+    "long_silence_over10s": 0,
+    "large_omissions": 0,
+    "cer_median": 0.03333333333333333,
+    "request_seconds": [
+      7.3786177057772875,
+      4.903953816741705,
+      5.102719131857157,
+      5.075085110962391,
+      4.769388219341636,
+      4.9541839230805635,
+      4.925285587087274,
+      4.891816262155771
+    ],
+    "records": [
+      {
+        "file": "c-root-chunked-p1/trial-0.wav",
+        "seconds": 26.35278911564626,
+        "longest_silence_seconds": 1.0,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.03333333333333333,
+        "large_deletions": [],
+        "transcript": "レンジくん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょ。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-chunked-p1/trial-1.wav",
+        "seconds": 26.63142857142857,
+        "longest_silence_seconds": 1.0,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.008333333333333333,
+        "large_deletions": [],
+        "transcript": "レンジ君、こっちに来て。少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょう。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-chunked-p1/trial-2.wav",
+        "seconds": 27.978185941043083,
+        "longest_silence_seconds": 1.2000000000000002,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.05,
+        "large_deletions": [],
+        "transcript": "デンジくん、こっちに来て。少しお話ししようか。そんなに緊張しなくていいよ。君のこともう少し知りたいだけだから難しいこと言うのは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね？簡単でしょう。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-chunked-p1/trial-3.wav",
+        "seconds": 28.11750566893424,
+        "longest_silence_seconds": 1.2000000000000002,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.03333333333333333,
+        "large_deletions": [],
+        "transcript": "レンジくん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-chunked-p1/trial-4.wav",
+        "seconds": 26.35278911564626,
+        "longest_silence_seconds": 0.9,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.03333333333333333,
+        "large_deletions": [],
+        "transcript": "レンジくん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから、難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょ。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい？"
+      },
+      {
+        "file": "c-root-chunked-p1/trial-5.wav",
+        "seconds": 27.328027210884354,
+        "longest_silence_seconds": 0.8,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.05,
+        "large_deletions": [],
+        "transcript": "全次君こっちに来て少しお話ししようかそんなに緊張しなくていいよ君のことをもう少し知りたいだけだから難しいことは私に任せて君は聞かれたことに正直に答えてくれればいいのね簡単でしょいい子だねじゃあ聞かせて君はこれからどんな暮らしがしたい"
+      },
+      {
+        "file": "c-root-chunked-p1/trial-6.wav",
+        "seconds": 27.1887074829932,
+        "longest_silence_seconds": 1.0,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.025,
+        "large_deletions": [],
+        "transcript": "デンジくん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "c-root-chunked-p1/trial-7.wav",
+        "seconds": 27.00294784580499,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.30000000000000004,
+        "cer": 0.03333333333333333,
+        "large_deletions": [],
+        "transcript": "テンジくん、こっちに来て少しお話しようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょう。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      }
+    ]
+  },
+  "a-root-native-decoded": {
+    "samples": 3,
+    "long_silence_over10s": 0,
+    "large_omissions": 0,
+    "cer_median": 0.04,
+    "request_seconds": [],
+    "records": [
+      {
+        "file": "a-root-native-decoded/trial-1-offline.wav",
+        "seconds": 13.56045351473923,
+        "longest_silence_seconds": 1.5,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.08,
+        "large_deletions": [],
+        "transcript": "全智くん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。"
+      },
+      {
+        "file": "a-root-native-decoded/trial-2-offline.wav",
+        "seconds": 13.653333333333334,
+        "longest_silence_seconds": 2.1,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.02,
+        "large_deletions": [],
+        "transcript": "レンジ君、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。"
+      },
+      {
+        "file": "a-root-native-decoded/trial-3-offline.wav",
+        "seconds": 18.06512471655329,
+        "longest_silence_seconds": 6.9,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.04,
+        "large_deletions": [],
+        "transcript": "デンジくん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。"
+      }
+    ]
+  },
+  "a-root-eager": {
+    "samples": 3,
+    "long_silence_over10s": 0,
+    "large_omissions": 1,
+    "cer_median": 0.041666666666666664,
+    "request_seconds": [
+      50.31313332915306,
+      41.59075126238167,
+      44.87663817219436
+    ],
+    "records": [
+      {
+        "file": "a-root-eager/seed-0.wav",
+        "seconds": 29.047573696145125,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.016666666666666666,
+        "large_deletions": [],
+        "transcript": "レンジ君、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "a-root-eager/seed-1.wav",
+        "seconds": 28.489977324263037,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.0,
+        "cer": 0.041666666666666664,
+        "large_deletions": [],
+        "transcript": "千次くん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "a-root-eager/seed-2.wav",
+        "seconds": 25.657619047619047,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.15,
+        "large_deletions": [
+          "ううんいい子だねじゃあ聞かせて"
+        ],
+        "transcript": "ベンジくん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。君はこれからどんな暮らしがしたい。"
+      }
+    ]
+  },
+  "a-root-resident": {
+    "samples": 3,
+    "long_silence_over10s": 0,
+    "large_omissions": 1,
+    "cer_median": 0.041666666666666664,
+    "request_seconds": [
+      19.717835085466504,
+      15.3851388823241,
+      18.61185626499355
+    ],
+    "records": [
+      {
+        "file": "a-root-resident/seed-0.wav",
+        "seconds": 33.94757369614513,
+        "longest_silence_seconds": 2.3000000000000003,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.016666666666666666,
+        "large_deletions": [],
+        "transcript": "レンジ君、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょ。うん、いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "a-root-resident/seed-1.wav",
+        "seconds": 32.08997732426304,
+        "longest_silence_seconds": 2.3000000000000003,
+        "tail_silence_seconds": 0.0,
+        "cer": 0.041666666666666664,
+        "large_deletions": [],
+        "transcript": "千次くん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね？簡単でしょ？うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい？"
+      },
+      {
+        "file": "a-root-resident/seed-2.wav",
+        "seconds": 31.207619047619048,
+        "longest_silence_seconds": 5.1000000000000005,
+        "tail_silence_seconds": 0.2,
+        "cer": 0.15,
+        "large_deletions": [
+          "ううんいい子だねじゃあ聞かせて"
+        ],
+        "transcript": "ベンジくん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょ。君はこれからどんな暮らしがしたい？"
+      }
+    ]
+  },
+  "a-root-opening": {
+    "samples": 2,
+    "long_silence_over10s": 0,
+    "large_omissions": 1,
+    "cer_median": 0.22083333333333333,
+    "request_seconds": [
+      21.376421209424734,
+      11.71459573879838
+    ],
+    "records": [
+      {
+        "file": "a-root-opening/seed-0.wav",
+        "seconds": 29.047573696145125,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.016666666666666666,
+        "large_deletions": [],
+        "transcript": "レンジ君、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "a-root-opening/seed-1.wav",
+        "seconds": 17.19716553287982,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.425,
+        "large_deletions": [
+          "デンジ君こっちに来て少しお話ししようかそんなに緊張しなくていいよ君のことをもう少し知りたいだけだから"
+        ],
+        "transcript": "難しいことは私に任せて、君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょ。うん、いい子だね。じゃあ聞かせて、君はこれからどんな暮らしがしたい。"
+      }
+    ]
+  },
+  "a-root-resident-codec": {
+    "samples": 2,
+    "long_silence_over10s": 0,
+    "large_omissions": 0,
+    "cer_median": 0.029166666666666667,
+    "request_seconds": [
+      21.127308655530214,
+      98.52447024546564
+    ],
+    "records": [
+      {
+        "file": "a-root-resident-codec/seed-0.wav",
+        "seconds": 29.047573696145125,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.016666666666666666,
+        "large_deletions": [],
+        "transcript": "レンジ君、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "a-root-resident-codec/seed-1.wav",
+        "seconds": 28.489977324263037,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.0,
+        "cer": 0.041666666666666664,
+        "large_deletions": [],
+        "transcript": "千次くん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      }
+    ]
+  },
+  "a-root-no-compiler": {
+    "samples": 2,
+    "long_silence_over10s": 0,
+    "large_omissions": 0,
+    "cer_median": 0.025,
+    "request_seconds": [
+      60.489375500008464,
+      61.2299053799361
+    ],
+    "records": [
+      {
+        "file": "a-root-no-compiler/seed-0.wav",
+        "seconds": 29.047573696145125,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.016666666666666666,
+        "large_deletions": [],
+        "transcript": "レンジ君、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      },
+      {
+        "file": "a-root-no-compiler/seed-1.wav",
+        "seconds": 28.54013605442177,
+        "longest_silence_seconds": 0.7000000000000001,
+        "tail_silence_seconds": 0.1,
+        "cer": 0.03333333333333333,
+        "large_deletions": [],
+        "transcript": "テンジくん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。"
+      }
+    ]
+  }
+}

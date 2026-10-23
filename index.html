@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Drama 3 on 24GB GPUs · Audio &amp; Measurements</title>
+<meta name="description" content="Run Fish Audio Drama 3 on one or two 24GB GPUs. Compare FP8/BF16, GGUF Q4_K and INT4 audio samples, measured timings and a complete public example.">
+<style>
+:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#202522;background:#f7f8f4;line-height:1.65;--muted:#626b64;--line:#dce1d8;--accent:#205d48}*{box-sizing:border-box}body{margin:0}main,nav{max-width:1120px;margin:auto;padding:0 28px}nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:25px;padding-bottom:25px;font-size:14px;border-bottom:1px solid var(--line)}nav strong{letter-spacing:.02em}a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:4px}nav a{margin-left:18px}header{padding:60px 0 44px;max-width:850px}.eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;color:var(--accent)}h1{font-size:clamp(36px,6vw,66px);line-height:1.12;letter-spacing:-.045em;margin:18px 0 22px}header p{font-size:19px;color:var(--muted);max-width:760px}.badges{display:flex;gap:8px;flex-wrap:wrap}.badges span,.tag{font-size:12px;padding:4px 10px;border:1px solid var(--line);border-radius:30px;background:#fff}section{padding:30px 0 42px;border-top:1px solid var(--line)}h2{font-size:26px;letter-spacing:-.025em;margin:8px 0 10px}section>p{max-width:920px;color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:25px 0}.card{background:white;padding:25px;border:1px solid var(--line);border-radius:14px;border-top:4px solid #9c6844}.card.b{border-top-color:#687e9a}.card.c{border-top-color:#2a7257}.card h3{font-size:20px;margin:18px 0 4px}.card>p{font-size:14px;color:var(--muted)}.number{font-size:48px;font-weight:650;letter-spacing:-.05em;line-height:1.2;margin-top:26px}.number span{font-size:16px;letter-spacing:0;font-weight:400}.card .metric{margin-top:4px}.card .note{font-size:12px}.card>a{font-size:13px}audio{width:100%;margin:18px 0 10px}details{padding:15px 18px;background:#ecefe7;border-radius:9px;margin:20px 0}summary{cursor:pointer;font-weight:600}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;line-height:1.8}table{width:100%;border-collapse:collapse;font-size:14px;background:#fff}td,th{text-align:left;padding:13px 15px;border-bottom:1px solid var(--line)}.scroll{overflow:auto}.reference{display:grid;grid-template-columns:1fr 1fr;gap:26px;background:#e9efe7;border-radius:12px;padding:20px 25px}.reference p{margin:5px 0;font-size:14px}.callout{border-left:3px solid var(--accent);padding-left:17px;color:var(--muted);font-size:14px}.command{background:#222d27;color:#f0f5ed;padding:22px 25px;border-radius:12px}footer{border-top:1px solid var(--line);padding:28px 0 45px;color:var(--muted);font-size:12px}@media(max-width:780px){.cards,.reference{grid-template-columns:1fr}header{padding-top:40px}nav{align-items:flex-start}nav div{display:flex;flex-direction:column;gap:8px}nav a{margin:0}main,nav{padding-left:20px;padding-right:20px}.card{padding:22px}.number{font-size:42px}}
+</style>
+</head>
+<body>
+<nav><strong>DRAMA 3 / INFERENCE LAB</strong><div><a href="https://github.com/torenyx/drama3-24gb">GitHub ↗</a><a href="https://github.com/torenyx/drama3-24gb/blob/main/README.zh-CN.md">Simplified Chinese</a><a href="#run">Run it</a></div></nav>
+<main>
+<header>
+<div class="eyebrow">REFERENCE CACHING · RESIDENT INFERENCE · STREAMING</div>
+<h1>Drama 3.<br>One or two 24GB GPUs.</h1>
+<p>Three inference profiles, playable outputs and the timings behind them. Cache reference codes, keep models resident and fit streaming speech generation on one card.</p>
+<div class="badges"><span>Measured on RTX 4090</span><span>Linux / Python 3.12</span><span>Public reference included</span></div>
+</header>
+<section id="japanese">
+<div class="eyebrow">01 / JAPANESE BENCHMARK</div>
+<h2>One script. Three inference profiles.</h2>
+<p>The same Japanese script and two reference clips, totaling 40.9 seconds. Request times include generation and waveform output, with references, services and compiler caches already prepared.</p>
+<div class="cards">
+<article class="card a"><span class="tag">FP8 experts / BF16</span><h3>A · Published precision</h3><p>2 GPUs · ComfyUI-Drama3</p><div class="number">13.06<span> s</span></div><p class="metric">request · 28.49 s of audio</p><audio controls preload="none" aria-label="A FP8/BF16 Japanese sample" src="media/a-fp8-resident-seed1.wav"></audio><p class="note">Seed 1 · continuous chunk history</p><a href="benchmarks/records/a-service-resident-floor.json">Measurement record ↗</a></article>
+<article class="card b"><span class="tag">Q4_K GGUF</span><h3>B · Native worker</h3><p>1 GPU · speech.cpp 0.8.11</p><div class="number">13.98<span> s</span></div><p class="metric">request · 37.48 s of audio</p><audio controls preload="none" aria-label="B Q4_K Japanese sample" src="media/b-q4k-seed1.wav"></audio><p class="note">Seed 1 · full model resident</p><a href="benchmarks/records/b-single.json">Measurement record ↗</a></article>
+<article class="card c"><span class="tag">INT4</span><h3>C · Grouped generation</h3><p>2 GPUs · SGLang-Omni</p><div class="number">4.90<span> s</span></div><p class="metric">requests · 26.63 s of audio</p><audio controls preload="none" aria-label="C INT4 Japanese sample" src="media/c-int4-chunked-trial1.wav"></audio><p class="note">Trial 1 · three independent groups</p><a href="benchmarks/records/c-root-chunked-p1.json">Measurement record ↗</a></article>
+</div>
+<p class="callout">C sums three independent requests and joins them with 0.15 s gaps. A retains generated chunk history. The profiles also use different sampling and reference processing. <a href="https://github.com/torenyx/drama3-24gb/blob/main/benchmarks/README.md">Full batches and timing definitions ↗</a></p>
+<p><a href="examples/prompt-ja.txt">Japanese target script ↗</a></p>
+</section>
+<section id="open">
+<div class="eyebrow">02 / INCLUDED PUBLIC EXAMPLE</div>
+<h2>Reference, transcript, script. All included.</h2>
+<p>These English outputs come from newly installed, isolated Python environments through the same sample command. All three profiles reuse converted model weights.</p>
+<div class="reference"><div><strong>Reference recording</strong><audio controls preload="none" aria-label="LibriSpeech reference recording" src="examples/librispeech/reference.flac"></audio><a href="https://github.com/torenyx/drama3-24gb/blob/main/examples/librispeech/README.md">LibriSpeech · CC BY 4.0 · source &amp; attribution ↗</a></div><div><strong>Exact transcript</strong><p>Mister Quilter is the apostle of the middle classes and we are glad to welcome his gospel.</p></div></div>
+<div class="cards">
+<article class="card a"><span class="tag">Public reference · English</span><h3>A · FP8/BF16</h3><p>2 GPUs · isolated A environment</p><div class="number">19.04<span> s</span></div><p class="metric">request · 27.81 s of audio</p><audio controls preload="none" aria-label="A FP8/BF16 public English sample" src="media/open-a-fp8.wav"></audio><p class="note">ASR: target text covered</p><a href="benchmarks/records/open-a-metrics.json">Request metrics ↗</a></article>
+<article class="card b"><span class="tag">Public reference · English</span><h3>B · Q4_K</h3><p>1 GPU · isolated B environment</p><div class="number">10.11<span> s</span></div><p class="metric">request · 26.70 s of audio</p><audio controls preload="none" aria-label="B Q4_K public English sample" src="media/open-b-q4.wav"></audio><p class="note">ASR: target text covered</p><a href="benchmarks/records/open-b-metrics.json">Request metrics ↗</a></article>
+<article class="card c"><span class="tag">Public reference · English</span><h3>C · INT4</h3><p>1 GPU · isolated C environment</p><div class="number">4.39<span> s</span></div><p class="metric">requests · 23.15 s of audio</p><audio controls preload="none" aria-label="C INT4 public English sample" src="media/open-c-int4.wav"></audio><p class="note">ASR: “this script” transcribed as “the script”</p><a href="benchmarks/records/open-c-metrics.json">Request metrics ↗</a></article>
+</div>
+<h3>From the sample command to WAV</h3>
+<div class="scroll"><table><thead><tr><th>Profile</th><th>Total wall time</th><th>Preparation state</th><th>Record</th></tr></thead><tbody>
+<tr><td>A · 2 GPUs</td><td>38.49 s</td><td>Cached reference; model reloaded</td><td><a href="benchmarks/records/open-a-run.json">run.json</a></td></tr>
+<tr><td>B · 1 GPU</td><td>21.97 s</td><td>FLAC → encoded voice → worker → WAV</td><td><a href="benchmarks/records/open-b-run.json">run.json</a></td></tr>
+<tr><td>C · 1 GPU</td><td>64.16 s</td><td>Cached reference and kernels; service startup 46.01 s</td><td><a href="benchmarks/records/open-c-run.json">run.json</a></td></tr>
+</tbody></table></div>
+<p>C's earlier compilation run took 375.24 s for two outputs, including 330.05 s of service startup and a 26.59 s first request. That run resumed partial compiler output after the original 600 s startup limit interrupted compilation. <a href="https://github.com/torenyx/drama3-24gb/blob/main/benchmarks/release-smoke.md#isolated-installation-and-public-reference">Installation results ↗</a> · <a href="benchmarks/records/open-asr.json">Transcripts ↗</a></p>
+<details><summary>English target script</summary><pre>&lt;|speaker:0|&gt;[Calm and clear, with a warm conversational tone] Welcome. Today we are testing a local speech generation system. The reference recording and its transcript are included, so you can run the same example on your own computer.
+
+[pause]
+
+&lt;|speaker:0|&gt;[Slightly curious] How does the voice change when we use a different inference engine? Listen to the timing, the pronunciation, and the way each sentence ends.
+
+[pause]
+
+&lt;|speaker:0|&gt;[Warm and relaxed] Thank you for listening. You can replace this script and the reference recording with your own material.</pre></details>
+</section>
+<section id="run">
+<div class="eyebrow">03 / RUN IT</div>
+<h2>Install. Download. Generate.</h2>
+<p>Linux, Python 3.12, FFmpeg, a CUDA toolkit and a C++ compiler. The downloader uses 16 connections per file with resume; all profiles share one official checkpoint download.</p>
+<pre class="command">git clone https://github.com/torenyx/drama3-24gb.git
+cd drama3-24gb
+PYTHON=python3.12 bash scripts/setup.sh --profile c-int4
+source .venv-c-int4/bin/activate
+python scripts/download_models.py --profile c-int4 --model-root models
+python scripts/sample.py --profile c-int4 --model-root models --gpus 2</pre>
+<p><a href="https://github.com/torenyx/drama3-24gb/blob/main/docs/setup.md">Full setup, one-card mode, existing weights and your own voice ↗</a></p>
+</section>
+<section>
+<div class="eyebrow">04 / RUNTIME CHANGES</div>
+<h2>What the optimizations change</h2>
+<div class="scroll"><table><thead><tr><th>Change</th><th>Measured effect</th></tr></thead><tbody>
+<tr><td>C · Persistent reference codes, lazy encoder</td><td>Secondary GPU residency 6209 → 2629 MiB; first PCM 0.632 → 0.336 s</td></tr>
+<tr><td>C · Bounded streaming codec window</td><td>Generation and waveform decoding fit one card; sampled peak 24022 MiB</td></tr>
+<tr><td>A · Isolated codec, stable placement, residency floor</td><td>Later requests stay around 13–20 s; previous path slowed to 39–63 s</td></tr>
+<tr><td>A · Local retry of stalled chunks</td><td>Restores two omitted phrases in the reproduced seed-2 stall</td></tr>
+</tbody></table></div>
+<p><a href="https://github.com/torenyx/drama3-24gb/blob/main/benchmarks/README.md">Before/after measurements ↗</a> · <a href="https://github.com/torenyx/drama3-24gb/blob/main/docs/failures.md">Silence, early EOS and omitted speech ↗</a></p>
+</section>
+<footer>2026-10-23 · Drama 3 Inference Lab · <a href="https://github.com/torenyx/drama3-24gb/blob/main/NOTICE">Upstream projects &amp; licenses</a></footer>
+</main>
+</body>
+</html>

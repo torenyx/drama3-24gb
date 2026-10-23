@@ -1,0 +1,74 @@
+{
+  "reference_cache": "<NVME_ROOT>/cache/reference-vq-v1",
+  "placement": "single-cached",
+  "warmup_enabled": false,
+  "started_epoch": 1792712957.614985,
+  "takes": [
+    {
+      "ttfa_seconds": 0.3398399855941534,
+      "request_seconds": 9.968143038451672,
+      "audio_seconds": 55.12417233560091,
+      "pcm_chunks": 22,
+      "file": "trial-0.wav",
+      "trial": 0,
+      "gpu_after_mib": {
+        "0": 24022,
+        "1": 4,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "ttfa_seconds": 0.19860022328794003,
+      "request_seconds": 6.463020205497742,
+      "audio_seconds": 36.26956916099773,
+      "pcm_chunks": 16,
+      "file": "trial-1.wav",
+      "trial": 1,
+      "gpu_after_mib": {
+        "0": 24022,
+        "1": 4,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "ttfa_seconds": 0.19385772943496704,
+      "request_seconds": 5.882786627858877,
+      "audio_seconds": 32.97233560090703,
+      "pcm_chunks": 15,
+      "file": "trial-2.wav",
+      "trial": 2,
+      "gpu_after_mib": {
+        "0": 24022,
+        "1": 4,
+        "2": 1,
+        "3": 1
+      }
+    }
+  ],
+  "conditions": "Process restart with existing OS/driver/Triton caches; not a machine cold boot.",
+  "gpu_idle_mib": {
+    "0": 1,
+    "1": 1,
+    "2": 1,
+    "3": 1
+  },
+  "server_pid": 795691,
+  "health_ready_seconds": 46.6286452896893,
+  "gpu_ready_mib": {
+    "0": 23826,
+    "1": 4,
+    "2": 1,
+    "3": 1
+  },
+  "application_ready_seconds": 46.667142648249865,
+  "launch_to_first_user_pcm_seconds": 47.00698263384402,
+  "gpu_peak_mib": {
+    "0": 24022,
+    "1": 4,
+    "2": 1,
+    "3": 1
+  },
+  "finished_epoch": 1792713028.3236673
+}

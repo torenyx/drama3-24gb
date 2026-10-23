@@ -1,0 +1,91 @@
+{
+  "parts": [
+    "<|speaker:0|>[穏やかで柔らかい声。親しげに、落ち着いた速さで] デンジ君、こっちに来て。少し、お話ししようか。\n\nそんなに緊張しなくていいよ。君のことを、もう少し知りたいだけだから。",
+    "[微笑みを含んだ声で、静かな確信を込めて] 難しいことは、私に任せて。君は、聞かれたことに正直に答えてくれればいいの。\n\nね、簡単でしょう？",
+    "[優しく、満足げに] うん、いい子だね。\n\nじゃあ、聞かせて。君はこれから、どんな暮らしがしたい？"
+  ],
+  "top_p": 1.0,
+  "takes": [
+    {
+      "trial": 0,
+      "request_seconds": 7.3786177057772875,
+      "audio_seconds": 26.35278911564626,
+      "part_request_ids": [
+        "speech-0923c155-702d-4446-be4c-f1422f8ec565",
+        "speech-c9187b00-4632-43ed-8a37-49bd2cb38642",
+        "speech-5776937e-35cb-49d0-9eb6-2cc4149887ef"
+      ]
+    },
+    {
+      "trial": 1,
+      "request_seconds": 4.903953816741705,
+      "audio_seconds": 26.63142857142857,
+      "part_request_ids": [
+        "speech-69608f31-faad-44dc-9c45-c8856ef541bb",
+        "speech-f6330df1-226d-477c-a9c0-4624b3442741",
+        "speech-48516fc9-9bfa-416d-acdb-4e97739c3e74"
+      ]
+    },
+    {
+      "trial": 2,
+      "request_seconds": 5.102719131857157,
+      "audio_seconds": 27.978185941043083,
+      "part_request_ids": [
+        "speech-75783975-b4f5-4667-abca-3123fa9254c3",
+        "speech-ce93a8b9-31c6-4506-95ce-4b3609241517",
+        "speech-df865899-736a-44b4-afa3-24a07b8d4cb7"
+      ]
+    },
+    {
+      "trial": 3,
+      "request_seconds": 5.075085110962391,
+      "audio_seconds": 28.11750566893424,
+      "part_request_ids": [
+        "speech-c933f0a1-0a00-459f-b04b-380451cf7c08",
+        "speech-3e5ba422-968b-4639-bebe-d4d9d9ff3009",
+        "speech-47d4b240-ded6-48cf-ab35-085ed57a8934"
+      ]
+    },
+    {
+      "trial": 4,
+      "request_seconds": 4.769388219341636,
+      "audio_seconds": 26.35278911564626,
+      "part_request_ids": [
+        "speech-d8315850-60f9-4a36-bf18-c0857e45b546",
+        "speech-54824c76-a01c-4b2e-b0d4-c873f1500044",
+        "speech-00d0516d-b154-4972-855b-311b75a7c59f"
+      ]
+    },
+    {
+      "trial": 5,
+      "request_seconds": 4.9541839230805635,
+      "audio_seconds": 27.328027210884354,
+      "part_request_ids": [
+        "speech-0a587840-34d4-4e67-affc-2120893b1cb1",
+        "speech-52c4a320-8b75-4095-b53b-2b48245c16b7",
+        "speech-72781264-4fdf-4913-aa48-c5ae297d0ed4"
+      ]
+    },
+    {
+      "trial": 6,
+      "request_seconds": 4.925285587087274,
+      "audio_seconds": 27.1887074829932,
+      "part_request_ids": [
+        "speech-407a847c-87cb-4fb6-b981-8dfee191371c",
+        "speech-4f6da181-b1c1-426a-8ab4-af7cece2d0a4",
+        "speech-37bc0feb-cc59-44a2-99f0-85f627582ef2"
+      ]
+    },
+    {
+      "trial": 7,
+      "request_seconds": 4.891816262155771,
+      "audio_seconds": 27.00294784580499,
+      "part_request_ids": [
+        "speech-e5f974cc-1316-47c7-a34f-b9ce64858419",
+        "speech-56c8cef8-363c-45da-a777-1f1ac8318b3f",
+        "speech-73ab5be7-18e9-4034-a8f3-a3eb75f80a6b"
+      ]
+    }
+  ],
+  "note": "Independent requests per utterance group; 0.15s joining pause. Voice cache/history unchanged upstream."
+}

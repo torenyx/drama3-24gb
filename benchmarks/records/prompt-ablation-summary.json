@@ -1,0 +1,230 @@
+{
+  "settings": "A official FP8/BF16; temperature 1, p .9, k 30; refs 0005+0051 cached; original three chunk boundaries; first/latest history; no stalled retries; isolated codec and resident floor",
+  "records": [
+    {
+      "group": "a-prompt-original-fixed",
+      "seed": 0,
+      "request_seconds": 21.71549684740603,
+      "audio_seconds": 29.047573696145125,
+      "traces": [
+        {
+          "file": "tail-seed-0-chunk-0-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 298
+        },
+        {
+          "file": "tail-seed-0-chunk-1-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 373
+        },
+        {
+          "file": "tail-seed-0-chunk-2-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 60
+        }
+      ],
+      "transcript": "レンジ君、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。",
+      "target_phrases_detected": true
+    },
+    {
+      "group": "a-prompt-original-fixed",
+      "seed": 2,
+      "request_seconds": 13.409398466348648,
+      "audio_seconds": 25.657619047619047,
+      "traces": [
+        {
+          "file": "tail-seed-2-chunk-0-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 273
+        },
+        {
+          "file": "tail-seed-2-chunk-1-attempt-0.safetensors",
+          "stalled": true,
+          "returned_frames": 338
+        },
+        {
+          "file": "tail-seed-2-chunk-2-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 61
+        }
+      ],
+      "transcript": "ベンジくん、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。君はこれからどんな暮らしがしたい。",
+      "target_phrases_detected": false
+    },
+    {
+      "group": "a-prompt-original-fixed",
+      "seed": 1,
+      "request_seconds": 12.64471510797739,
+      "audio_seconds": 28.489977324263037,
+      "traces": [
+        {
+          "file": "tail-seed-1-chunk-0-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 272
+        },
+        {
+          "file": "tail-seed-1-chunk-1-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 356
+        },
+        {
+          "file": "tail-seed-1-chunk-2-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 63
+        }
+      ],
+      "transcript": "千次くん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。",
+      "target_phrases_detected": true
+    },
+    {
+      "group": "a-prompt-no-pauses-fixed",
+      "seed": 0,
+      "request_seconds": 21.76771891117096,
+      "audio_seconds": 28.751451247165534,
+      "traces": [
+        {
+          "file": "tail-seed-0-chunk-0-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 310
+        },
+        {
+          "file": "tail-seed-0-chunk-1-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 389
+        },
+        {
+          "file": "tail-seed-0-chunk-2-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 59
+        }
+      ],
+      "transcript": "ベンジくん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。",
+      "target_phrases_detected": true
+    },
+    {
+      "group": "a-prompt-no-pauses-fixed",
+      "seed": 2,
+      "request_seconds": 12.57925308868289,
+      "audio_seconds": 29.218616780045352,
+      "traces": [
+        {
+          "file": "tail-seed-2-chunk-0-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 273
+        },
+        {
+          "file": "tail-seed-2-chunk-1-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 361
+        },
+        {
+          "file": "tail-seed-2-chunk-2-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 63
+        }
+      ],
+      "transcript": "全次くん、こっちに来て、少しお話ししようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね？簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。",
+      "target_phrases_detected": true
+    },
+    {
+      "group": "a-prompt-no-pauses-fixed",
+      "seed": 1,
+      "request_seconds": 11.365745037794113,
+      "audio_seconds": 27.27122448979592,
+      "traces": [
+        {
+          "file": "tail-seed-1-chunk-0-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 235
+        },
+        {
+          "file": "tail-seed-1-chunk-1-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 316
+        },
+        {
+          "file": "tail-seed-1-chunk-2-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 61
+        }
+      ],
+      "transcript": "デンジくん、こっちに来て少しお話しようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。",
+      "target_phrases_detected": true
+    },
+    {
+      "group": "a-prompt-dialogue-fixed",
+      "seed": 0,
+      "request_seconds": 22.208467293530703,
+      "audio_seconds": 28.566326530612244,
+      "traces": [
+        {
+          "file": "tail-seed-0-chunk-0-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 287
+        },
+        {
+          "file": "tail-seed-0-chunk-1-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 460
+        },
+        {
+          "file": "tail-seed-0-chunk-2-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 63
+        }
+      ],
+      "transcript": "デンジ君、こっちに来て少しお話ししようか。そんなに緊張しなくていいよ。君のこともう少し知りたいだけだから難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね？簡単でしょ。うん。いい子だね。じゃあ聞かせて。君はこれからどんな暮らしがしたい。",
+      "target_phrases_detected": true
+    },
+    {
+      "group": "a-prompt-dialogue-fixed",
+      "seed": 2,
+      "request_seconds": 10.37292005866766,
+      "audio_seconds": 23.31687074829932,
+      "traces": [
+        {
+          "file": "tail-seed-2-chunk-0-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 257
+        },
+        {
+          "file": "tail-seed-2-chunk-1-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 226
+        },
+        {
+          "file": "tail-seed-2-chunk-2-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 60
+        }
+      ],
+      "transcript": "レンジくん、こっちに来て少しお話しようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから。難しいことは私に任せて。君は聞かれたことに正直に答えてくれればいいの。ね。簡単でしょ。君はこれからどんな暮らしがしたい。",
+      "target_phrases_detected": false
+    },
+    {
+      "group": "a-prompt-dialogue-fixed",
+      "seed": 1,
+      "request_seconds": 16.15130722336471,
+      "audio_seconds": 30.52471655328798,
+      "traces": [
+        {
+          "file": "tail-seed-1-chunk-0-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 340
+        },
+        {
+          "file": "tail-seed-1-chunk-1-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 512
+        },
+        {
+          "file": "tail-seed-1-chunk-2-attempt-0.safetensors",
+          "stalled": false,
+          "returned_frames": 68
+        }
+      ],
+      "transcript": "チェンジくん、こっちに来て、少しお話しようか。そんなに緊張しなくていいよ。君のことをもう少し知りたいだけだから、難しいことは私に任せて、君は聞かれたことに正直に答えてくれればいいの。ね、簡単でしょ。うん。いい子だね。じゃあ聞かせて、君はこれからどんな暮らしがしたい。",
+      "target_phrases_detected": true
+    }
+  ]
+}

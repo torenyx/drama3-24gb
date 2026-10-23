@@ -1,0 +1,2067 @@
+{
+  "a-service-profile": {
+    "takes": [
+      {
+        "seed": 1,
+        "request_seconds": 21.221789233386517,
+        "generation_seconds": 20.271757608279586,
+        "decode_seconds": 0.9494282603263855,
+        "pcm_equal_to_repair": true
+      },
+      {
+        "seed": 1,
+        "request_seconds": 12.98707688972354,
+        "generation_seconds": 12.371895065531135,
+        "decode_seconds": 0.6146307718008757,
+        "pcm_equal_to_repair": true
+      },
+      {
+        "seed": 1,
+        "request_seconds": 16.792721275240183,
+        "generation_seconds": 16.176609691232443,
+        "decode_seconds": 0.6155931930989027,
+        "pcm_equal_to_repair": true
+      },
+      {
+        "seed": 1,
+        "request_seconds": 66.90837581828237,
+        "generation_seconds": 66.29251363500953,
+        "decode_seconds": 0.6154198423027992,
+        "pcm_equal_to_repair": true
+      }
+    ],
+    "profile": [
+      {
+        "sequence": 1,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 7.170008182525635,
+        "counts": {
+          "replay_calls": 11090
+        }
+      },
+      {
+        "sequence": 2,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.6775089632719755,
+        "counts": {
+          "replay_calls": 14534
+        }
+      },
+      {
+        "sequence": 3,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.2799405846744776,
+        "counts": {
+          "replay_calls": 2521
+        }
+      },
+      {
+        "sequence": 4,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 4.406766140833497,
+        "counts": {
+          "replay_calls": 11090
+        }
+      },
+      {
+        "sequence": 5,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.659663271158934,
+        "counts": {
+          "replay_calls": 14534
+        }
+      },
+      {
+        "sequence": 6,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.2813785169273615,
+        "counts": {
+          "replay_calls": 2521
+        }
+      },
+      {
+        "sequence": 7,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 4.471006209030747,
+        "counts": {
+          "replay_calls": 11090
+        }
+      },
+      {
+        "sequence": 8,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.726242700591683,
+        "counts": {
+          "replay_calls": 14534
+        }
+      },
+      {
+        "sequence": 9,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.952632009983063,
+        "counts": {
+          "replay_calls": 1545
+        }
+      },
+      {
+        "sequence": 10,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 25.664410347118974,
+        "counts": {
+          "replay_calls": 5420
+        }
+      },
+      {
+        "sequence": 11,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 33.47863711044192,
+        "counts": {
+          "replay_calls": 7100
+        }
+      },
+      {
+        "sequence": 12,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 7.120225751772523,
+        "counts": {
+          "replay_calls": 1240
+        }
+      }
+    ]
+  },
+  "a-service-faults": {
+    "takes": [
+      {
+        "seed": 1,
+        "request_seconds": 21.45378396473825,
+        "generation_seconds": 20.515897626057267,
+        "decode_seconds": 0.9372814446687698,
+        "pcm_equal_to_repair": true
+      },
+      {
+        "seed": 1,
+        "request_seconds": 13.103217471390963,
+        "generation_seconds": 12.474727839231491,
+        "decode_seconds": 0.6279082782566547,
+        "pcm_equal_to_repair": true
+      },
+      {
+        "seed": 1,
+        "request_seconds": 17.003071028739214,
+        "generation_seconds": 16.382319612428546,
+        "decode_seconds": 0.6202101185917854,
+        "pcm_equal_to_repair": true
+      },
+      {
+        "seed": 1,
+        "request_seconds": 68.80735491029918,
+        "generation_seconds": 68.18297953158617,
+        "decode_seconds": 0.6239566951990128,
+        "pcm_equal_to_repair": true
+      }
+    ],
+    "profile": [
+      {
+        "sequence": 1,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 7.230357296764851,
+        "counts": {
+          "fault_0_ok": 6659,
+          "fault_1_ok": 6792,
+          "pin_cuda:0_False": 21,
+          "pin_cuda:1_False": 20,
+          "pin_cuda:0_True": 63,
+          "pin_cuda:1_True": 40,
+          "replay_calls": 11090
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 2,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.716790018603206,
+        "counts": {
+          "fault_0_ok": 8507,
+          "fault_1_ok": 8640,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 14534
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 3,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.3036019671708345,
+        "counts": {
+          "fault_0_ok": 2061,
+          "fault_1_ok": 2194,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 2521
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 4,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 4.43840504810214,
+        "counts": {
+          "fault_0_ok": 6659,
+          "fault_1_ok": 6792,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 11090
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 5,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.698678098618984,
+        "counts": {
+          "fault_0_ok": 8507,
+          "fault_1_ok": 8640,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 14534
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 6,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.3125208131968975,
+        "counts": {
+          "fault_0_ok": 2061,
+          "fault_1_ok": 2194,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 2521
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 7,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 4.495623338967562,
+        "counts": {
+          "fault_0_ok": 6387,
+          "fault_1_ok": 6792,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 11090
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 70,
+            "pinned": 0,
+            "watermark": 70
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 8,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.763634556904435,
+        "counts": {
+          "fault_1_ok": 8640,
+          "fault_0_ok": 8150,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 14534
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 46,
+            "pinned": 0,
+            "watermark": 46
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 9,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 6.093853916972876,
+        "counts": {
+          "fault_1_ok": 2194,
+          "fault_0_ok": 537,
+          "pin_cuda:0_True": 26,
+          "fault_0_oom": 8644,
+          "pin_cuda:0_False": 1018,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 1545
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 11,
+            "pinned": 0,
+            "watermark": 11
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 10,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 26.373512415215373,
+        "counts": {
+          "fault_1_ok": 6792,
+          "fault_0_ok": 9,
+          "pin_cuda:0_True": 1,
+          "fault_0_oom": 48858,
+          "pin_cuda:0_False": 5732,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 5420
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 0,
+            "pinned": 0,
+            "watermark": 0
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 11,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 34.494822988286614,
+        "counts": {
+          "fault_1_ok": 8640,
+          "fault_0_oom": 63903,
+          "pin_cuda:0_False": 7497,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 7100
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 0,
+            "pinned": 0,
+            "watermark": 0
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 12,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 7.284251714125276,
+        "counts": {
+          "fault_1_ok": 2194,
+          "fault_0_oom": 11456,
+          "pin_cuda:0_False": 1344,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 1240
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 0,
+            "pinned": 0,
+            "watermark": 0
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      }
+    ]
+  },
+  "a-service-no-nvml": {
+    "takes": [
+      {
+        "seed": 0,
+        "request_seconds": 21.784167543053627,
+        "generation_seconds": 20.823605509474874,
+        "decode_seconds": 0.9599608220160007,
+        "pcm_equal_to_repair": true
+      },
+      {
+        "seed": 1,
+        "request_seconds": 13.0187973305583,
+        "generation_seconds": 12.38903496041894,
+        "decode_seconds": 0.6293243747204542,
+        "pcm_equal_to_repair": true
+      }
+    ],
+    "profile": [
+      {
+        "sequence": 1,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 7.539645742624998,
+        "counts": {
+          "fault_0_ok": 7231,
+          "fault_1_ok": 7364,
+          "pin_cuda:0_False": 21,
+          "pin_cuda:1_False": 20,
+          "pin_cuda:0_True": 63,
+          "pin_cuda:1_True": 40,
+          "replay_calls": 12156
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 2,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.91242684610188,
+        "counts": {
+          "fault_0_ok": 8881,
+          "fault_1_ok": 9014,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 15231
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 3,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.2624940648674965,
+        "counts": {
+          "fault_0_ok": 1995,
+          "fault_1_ok": 2128,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 2398
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 4,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 4.413625501096249,
+        "counts": {
+          "fault_0_ok": 6659,
+          "fault_1_ok": 6792,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 11090
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 5,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.673180419951677,
+        "counts": {
+          "fault_0_ok": 8507,
+          "fault_1_ok": 8640,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 14534
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 6,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.277796583250165,
+        "counts": {
+          "fault_0_ok": 2061,
+          "fault_1_ok": 2194,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 2521
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 7,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 4.489970887079835,
+        "counts": {
+          "fault_0_ok": 6408,
+          "fault_1_ok": 6814,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 11131
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 69,
+            "pinned": 0,
+            "watermark": 69
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      },
+      {
+        "sequence": 8,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 6.591106045991182,
+        "counts": {
+          "fault_1_ok": 10114,
+          "fault_0_ok": 9557,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 17281
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 45,
+            "pinned": 0,
+            "watermark": 45
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752
+          }
+        ]
+      }
+    ]
+  },
+  "a-service-resident-floor": {
+    "takes": [
+      {
+        "seed": 0,
+        "request_seconds": 21.923119645565748,
+        "generation_seconds": 20.953753106296062,
+        "decode_seconds": 0.9687510803341866,
+        "pcm_equal_to_repair": true
+      },
+      {
+        "seed": 1,
+        "request_seconds": 13.064698692411184,
+        "generation_seconds": 12.42985631339252,
+        "decode_seconds": 0.6342501044273376,
+        "pcm_equal_to_repair": true
+      },
+      {
+        "seed": 2,
+        "request_seconds": 19.801310677081347,
+        "generation_seconds": 19.15703885629773,
+        "decode_seconds": 0.6437173429876566,
+        "pcm_equal_to_repair": true
+      },
+      {
+        "seed": 3,
+        "request_seconds": 15.064348166808486,
+        "generation_seconds": 14.364911494776607,
+        "decode_seconds": 0.6988769043236971,
+        "pcm_equal_to_repair": true
+      },
+      {
+        "seed": 4,
+        "request_seconds": 16.59465209953487,
+        "generation_seconds": 15.81020500510931,
+        "decode_seconds": 0.7838897407054901,
+        "pcm_equal_to_repair": false
+      },
+      {
+        "seed": 5,
+        "request_seconds": 12.992765022441745,
+        "generation_seconds": 12.368649477139115,
+        "decode_seconds": 0.6235944777727127,
+        "pcm_equal_to_repair": true
+      }
+    ],
+    "profile": [
+      {
+        "sequence": 1,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 7.545620089396834,
+        "counts": {
+          "fault_0_ok": 7231,
+          "fault_1_ok": 7364,
+          "pin_cuda:0_False": 21,
+          "pin_cuda:1_False": 20,
+          "pin_cuda:0_True": 63,
+          "pin_cuda:1_True": 40,
+          "replay_calls": 12156
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 2539126784,
+            "aimdo_recorded": 20210518016,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19340067840,
+            "cuda_free": 4217765888
+          }
+        ]
+      },
+      {
+        "sequence": 2,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.92803923599422,
+        "counts": {
+          "fault_0_ok": 8881,
+          "fault_1_ok": 9014,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 15231
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 2539126784,
+            "aimdo_recorded": 21017921536,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19340067840,
+            "cuda_free": 4217765888
+          }
+        ]
+      },
+      {
+        "sequence": 3,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.2865278758108616,
+        "counts": {
+          "fault_0_ok": 1995,
+          "fault_1_ok": 2128,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 2398
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 2539126784,
+            "aimdo_recorded": 22045526016,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19361039360,
+            "cuda_free": 4196794368
+          }
+        ]
+      },
+      {
+        "sequence": 4,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 4.420921452343464,
+        "counts": {
+          "fault_0_ok": 6659,
+          "fault_1_ok": 6792,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 11090
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 2539126784,
+            "aimdo_recorded": 22639020032,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19319096320,
+            "cuda_free": 4135976960
+          }
+        ]
+      },
+      {
+        "sequence": 5,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.680291719734669,
+        "counts": {
+          "fault_0_ok": 8507,
+          "fault_1_ok": 8640,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 14534
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 2539126784,
+            "aimdo_recorded": 23440132096,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19340067840,
+            "cuda_free": 4115005440
+          }
+        ]
+      },
+      {
+        "sequence": 6,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.301831128075719,
+        "counts": {
+          "fault_0_ok": 2061,
+          "fault_1_ok": 2194,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 2521
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 2539126784,
+            "aimdo_recorded": 24461445120,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19361039360,
+            "cuda_free": 4094033920
+          }
+        ]
+      },
+      {
+        "sequence": 7,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 4.467275962233543,
+        "counts": {
+          "fault_0_ok": 6681,
+          "fault_1_ok": 6814,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 11131
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 76,
+            "offset": 2539126784,
+            "aimdo_recorded": 25054939136,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19319096320,
+            "cuda_free": 4135976960
+          }
+        ]
+      },
+      {
+        "sequence": 8,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 6.586024822667241,
+        "counts": {
+          "fault_0_ok": 9981,
+          "fault_1_ok": 10114,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 17281
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 76,
+            "offset": 2539126784,
+            "aimdo_recorded": 25856051200,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19340067840,
+            "cuda_free": 4115005440
+          }
+        ]
+      },
+      {
+        "sequence": 9,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.7337724808603525,
+        "counts": {
+          "fault_0_ok": 8463,
+          "fault_1_ok": 8596,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 14452
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 76,
+            "offset": 2539126784,
+            "aimdo_recorded": 26657163264,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19340067840,
+            "cuda_free": 4115005440
+          }
+        ]
+      },
+      {
+        "sequence": 10,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.3330659810453653,
+        "counts": {
+          "fault_0_ok": 2105,
+          "fault_1_ok": 2238,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 2603
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 76,
+            "offset": 2539126784,
+            "aimdo_recorded": 27678476288,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19361039360,
+            "cuda_free": 4094033920
+          }
+        ]
+      },
+      {
+        "sequence": 11,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.011892922222614,
+        "counts": {
+          "fault_0_ok": 7583,
+          "fault_1_ok": 7716,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 12812
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 76,
+            "offset": 2539126784,
+            "aimdo_recorded": 28271970304,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19319096320,
+            "cuda_free": 4135976960
+          }
+        ]
+      },
+      {
+        "sequence": 12,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 6.872961416840553,
+        "counts": {
+          "fault_0_ok": 10399,
+          "fault_1_ok": 10532,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 18060
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 76,
+            "offset": 2539126784,
+            "aimdo_recorded": 29079373824,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19340067840,
+            "cuda_free": 4115005440
+          }
+        ]
+      },
+      {
+        "sequence": 13,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.45096717402339,
+        "counts": {
+          "fault_0_ok": 2171,
+          "fault_1_ok": 2304,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 2726
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 76,
+            "offset": 2539126784,
+            "aimdo_recorded": 30157309952,
+            "cuda_free": 4662362112
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19361039360,
+            "cuda_free": 4094033920
+          }
+        ]
+      },
+      {
+        "sequence": 14,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.399969298392534,
+        "counts": {
+          "fault_0_ok": 8265,
+          "fault_1_ok": 8398,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 14083
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 76,
+            "offset": 2539126784,
+            "aimdo_recorded": 30748706816,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19319096320,
+            "cuda_free": 4135976960
+          }
+        ]
+      },
+      {
+        "sequence": 15,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 7.669825019314885,
+        "counts": {
+          "fault_0_ok": 11741,
+          "fault_1_ok": 11874,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 20561
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 76,
+            "offset": 2539126784,
+            "aimdo_recorded": 31577081856,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19340067840,
+            "cuda_free": 4115005440
+          }
+        ]
+      },
+      {
+        "sequence": 16,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.7116535380482674,
+        "counts": {
+          "fault_0_ok": 2545,
+          "fault_1_ok": 2678,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 3423
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 76,
+            "offset": 2539126784,
+            "aimdo_recorded": 32678086656,
+            "cuda_free": 4662362112
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19361039360,
+            "cuda_free": 4094033920
+          }
+        ]
+      },
+      {
+        "sequence": 17,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 4.417745502665639,
+        "counts": {
+          "fault_0_ok": 6571,
+          "fault_1_ok": 6704,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 10926
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 76,
+            "offset": 2539126784,
+            "aimdo_recorded": 33269483520,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19319096320,
+            "cuda_free": 4135976960
+          }
+        ]
+      },
+      {
+        "sequence": 18,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.641403794288635,
+        "counts": {
+          "fault_0_ok": 8309,
+          "fault_1_ok": 8442,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 14165
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 76,
+            "offset": 2539126784,
+            "aimdo_recorded": 34072692736,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19340067840,
+            "cuda_free": 4115005440
+          }
+        ]
+      },
+      {
+        "sequence": 19,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.2819176018238068,
+        "counts": {
+          "fault_0_ok": 2017,
+          "fault_1_ok": 2150,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 2439
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 76,
+            "offset": 2539126784,
+            "aimdo_recorded": 35094005760,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19361039360,
+            "cuda_free": 4094033920
+          }
+        ]
+      }
+    ]
+  },
+  "a-service-owner-cleanup": {
+    "takes": [
+      {
+        "seed": 0,
+        "request_seconds": 21.956368260085583,
+        "generation_seconds": 20.916189555078745,
+        "decode_seconds": 1.0395622216165066,
+        "pcm_equal_to_repair": true
+      },
+      {
+        "seed": 1,
+        "request_seconds": 13.103359809145331,
+        "generation_seconds": 12.415330979973078,
+        "decode_seconds": 0.6874179616570473,
+        "pcm_equal_to_repair": true
+      },
+      {
+        "seed": 2,
+        "request_seconds": 42.97924238815904,
+        "generation_seconds": 42.220361379906535,
+        "decode_seconds": 0.7583419606089592,
+        "pcm_equal_to_repair": true
+      }
+    ],
+    "profile": [
+      {
+        "sequence": 1,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 7.540021942928433,
+        "counts": {
+          "fault_0_ok": 7231,
+          "fault_1_ok": 7364,
+          "pin_cuda:0_False": 21,
+          "pin_cuda:1_False": 20,
+          "pin_cuda:0_True": 63,
+          "pin_cuda:1_True": 40,
+          "replay_calls": 12156
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 2539126784,
+            "aimdo_recorded": 20210518016,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19340067840,
+            "cuda_free": 4217765888
+          }
+        ]
+      },
+      {
+        "sequence": 2,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.937127709388733,
+        "counts": {
+          "fault_0_ok": 8881,
+          "fault_1_ok": 9014,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 15231
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 2539126784,
+            "aimdo_recorded": 21017921536,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19340067840,
+            "cuda_free": 4217765888
+          }
+        ]
+      },
+      {
+        "sequence": 3,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.2684475779533386,
+        "counts": {
+          "fault_0_ok": 1995,
+          "fault_1_ok": 2128,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 2398
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 2539126784,
+            "aimdo_recorded": 22045526016,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19361039360,
+            "cuda_free": 4196794368
+          }
+        ]
+      },
+      {
+        "sequence": 4,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 4.4143145978450775,
+        "counts": {
+          "fault_0_ok": 6659,
+          "fault_1_ok": 6792,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 11090
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 2539126784,
+            "aimdo_recorded": 22639020032,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19319096320,
+            "cuda_free": 4135976960
+          }
+        ]
+      },
+      {
+        "sequence": 5,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 5.676461758092046,
+        "counts": {
+          "fault_0_ok": 8507,
+          "fault_1_ok": 8640,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 14534
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 2539126784,
+            "aimdo_recorded": 23440132096,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19340067840,
+            "cuda_free": 4115005440
+          }
+        ]
+      },
+      {
+        "sequence": 6,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 2.2964209336787462,
+        "counts": {
+          "fault_0_ok": 2061,
+          "fault_1_ok": 2194,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 2521
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 76,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 2539126784,
+            "aimdo_recorded": 24461445120,
+            "cuda_free": 4664459264
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19361039360,
+            "cuda_free": 4094033920
+          }
+        ]
+      },
+      {
+        "sequence": 7,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 4.494897296652198,
+        "counts": {
+          "fault_0_ok": 6408,
+          "fault_1_ok": 6814,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 11131
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 69,
+            "pinned": 0,
+            "watermark": 69,
+            "offset": 2539126784,
+            "aimdo_recorded": 24820058112,
+            "cuda_free": 4899340288
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19319096320,
+            "cuda_free": 4135976960
+          }
+        ]
+      },
+      {
+        "sequence": 8,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 6.586406072601676,
+        "counts": {
+          "fault_1_ok": 10114,
+          "fault_0_ok": 9557,
+          "pin_cuda:0_True": 84,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 17281
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 45,
+            "pinned": 0,
+            "watermark": 45,
+            "offset": 2539126784,
+            "aimdo_recorded": 24815863808,
+            "cuda_free": 5704646656
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19340067840,
+            "cuda_free": 4115005440
+          }
+        ]
+      },
+      {
+        "sequence": 9,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 23.70797581411898,
+        "counts": {
+          "fault_1_ok": 8596,
+          "fault_0_ok": 4896,
+          "pin_cuda:0_True": 37,
+          "fault_0_oom": 39702,
+          "pin_cuda:0_False": 4961,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 9524
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 17,
+            "pinned": 0,
+            "watermark": 17,
+            "offset": 2539126784,
+            "aimdo_recorded": 24815863808,
+            "cuda_free": 6505758720
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19340067840,
+            "cuda_free": 4115005440
+          }
+        ]
+      },
+      {
+        "sequence": 10,
+        "compile": [
+          true,
+          true
+        ],
+        "sync_free": true,
+        "seconds": 7.390361499041319,
+        "counts": {
+          "fault_1_ok": 2238,
+          "fault_0_ok": 9,
+          "pin_cuda:0_True": 1,
+          "fault_0_oom": 11805,
+          "pin_cuda:0_False": 1385,
+          "pin_cuda:1_True": 60,
+          "replay_calls": 1280
+        },
+        "residency": [
+          {
+            "device": 0,
+            "pages": 752,
+            "resident": 0,
+            "pinned": 0,
+            "watermark": 0,
+            "offset": 2539126784,
+            "aimdo_recorded": 25222711296,
+            "cuda_free": 7090864128
+          },
+          {
+            "device": 1,
+            "pages": 752,
+            "resident": 114,
+            "pinned": 0,
+            "watermark": 752,
+            "offset": 3818262528,
+            "aimdo_recorded": 19361039360,
+            "cuda_free": 4094033920
+          }
+        ]
+      }
+    ]
+  }
+}

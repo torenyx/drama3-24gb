@@ -1,0 +1,26 @@
+Drama 3 Inference Lab
+Copyright 2026 torenyx
+
+Project glue and benchmark tools are licensed under GPL-3.0-or-later,
+except files with an explicit different SPDX license. The streaming vocoder
+factory is adapted from Apache-2.0 SGLang-Omni code and retains its notice.
+
+Upstream inference, quantization and conversion implementations:
+Fish Audio Drama 3 / Fish Speech: https://github.com/fishaudio/fish-speech
+ComfyUI-Drama3: https://github.com/PedroMarinhoDev/ComfyUI-Drama3
+ComfyUI / AIMDO: https://github.com/Comfy-Org/ComfyUI
+speech.cpp: https://github.com/nyosegawa/speech.cpp
+SGLang-Omni: https://github.com/sgl-project/sglang-omni
+INT4 conversion: https://huggingface.co/fishaudio/drama-3-int4
+
+Upstream source and model weights are acquired separately and retain their
+own licenses. Selected license texts are in licenses/.
+
+media/ contains generated evaluation examples. Private Japanese reference recordings,
+encoded voice caches, checkpoint tensors and full upstream trees are excluded.
+The optimization work is loading, residency, reference reuse and failed-chunk
+handling; the underlying TTS model and generation kernels are upstream work.
+
+Included example reference: LibriSpeech dev-clean 1272-128104-0000, CC BY 4.0.
+Attribution and source: examples/librispeech/README.md. This recording is separate
+from the model and code licenses.

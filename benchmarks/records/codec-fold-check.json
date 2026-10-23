@@ -1,0 +1,38 @@
+{
+  "reference_checks": [
+    {
+      "id": "0005",
+      "exact": true,
+      "shape": [
+        10,
+        312
+      ],
+      "different_codes": 0,
+      "code_count": 3120,
+      "fresh_repeat_exact": false
+    },
+    {
+      "id": "0051",
+      "exact": true,
+      "shape": [
+        10,
+        570
+      ],
+      "different_codes": 0,
+      "code_count": 5700,
+      "fresh_repeat_exact": true
+    }
+  ],
+  "weight_max_abs": 1.7881393432617188e-07,
+  "weights_allclose": true,
+  "weight_tolerance": {
+    "rtol": 2e-05,
+    "atol": 1e-07
+  },
+  "waveform_max_abs": 0.0003509521484375,
+  "waveform_error_rms": 3.2253457902697846e-05,
+  "waveform_snr_db": 53.59461826796894,
+  "waveform_exact": false,
+  "waveform_finite": true,
+  "note": "One 128-frame reference-code window, eager ChannelsLast float16 decode; not a listening score."
+}

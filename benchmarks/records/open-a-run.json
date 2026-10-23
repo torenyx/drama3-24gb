@@ -1,0 +1,17 @@
+{
+  "profile": "a-fp8",
+  "gpus": 2,
+  "python": "<PROJECT_ROOT>/.venv-a-fp8/bin/python",
+  "source": "<MODEL_ROOT>/drama-3",
+  "converted": "<MODEL_ROOT>/derived/comfy-fp8",
+  "assets": "<PROJECT_ROOT>/examples/librispeech",
+  "prompt": "<PROJECT_ROOT>/examples/librispeech/prompt.txt",
+  "output": "<RUN_ROOT>/rebuilt-public/a-clean",
+  "stages_seconds": {
+    "runner": 38.491407284513116
+  },
+  "status": "completed",
+  "timing": "Wall time includes preparation, startup and client overhead; excludes prior model download.",
+  "conversion_reused": true,
+  "wall_seconds": 38.49169203825295
+}

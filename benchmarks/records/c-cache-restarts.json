@@ -1,0 +1,109 @@
+{
+  "runs": [
+    {
+      "label": "baseline-r2",
+      "health_seconds": 41.122933914884925,
+      "launch_to_first_pcm_seconds": 41.7901650685817,
+      "first_request_ttfa_seconds": 0.6304554454982281,
+      "hot_ttfa_seconds": [
+        0.19576260447502136,
+        0.1952832080423832
+      ],
+      "gpu_peak_mib": {
+        "0": 21965,
+        "1": 6209,
+        "2": 1,
+        "3": 1
+      },
+      "gpu_after_first_request_mib": {
+        "0": 21965,
+        "1": 6209,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "label": "cache-r1",
+      "health_seconds": 40.86579344794154,
+      "launch_to_first_pcm_seconds": 41.23995476402342,
+      "first_request_ttfa_seconds": 0.3365046326071024,
+      "hot_ttfa_seconds": [
+        0.1972599606961012,
+        0.1930442415177822
+      ],
+      "gpu_peak_mib": {
+        "0": 21574,
+        "1": 2839,
+        "2": 1,
+        "3": 1
+      },
+      "gpu_after_first_request_mib": {
+        "0": 21574,
+        "1": 2629,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "label": "baseline-r3",
+      "health_seconds": 41.11423093825579,
+      "launch_to_first_pcm_seconds": 41.786718191578984,
+      "first_request_ttfa_seconds": 0.6337899435311556,
+      "hot_ttfa_seconds": [
+        0.19677120074629784,
+        0.1931796781718731
+      ],
+      "gpu_peak_mib": {
+        "0": 21965,
+        "1": 6209,
+        "2": 1,
+        "3": 1
+      },
+      "gpu_after_first_request_mib": {
+        "0": 21965,
+        "1": 6209,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "label": "cache-r2",
+      "health_seconds": 40.615271313115954,
+      "launch_to_first_pcm_seconds": 40.988886864855886,
+      "first_request_ttfa_seconds": 0.33517627604305744,
+      "hot_ttfa_seconds": [
+        0.1992292571812868,
+        0.19437817484140396
+      ],
+      "gpu_peak_mib": {
+        "0": 21574,
+        "1": 3121,
+        "2": 1,
+        "3": 1
+      },
+      "gpu_after_first_request_mib": {
+        "0": 21574,
+        "1": 2629,
+        "2": 1,
+        "3": 1
+      }
+    }
+  ],
+  "medians": {
+    "baseline": {
+      "health_seconds": 41.118582426570356,
+      "launch_to_first_pcm_seconds": 41.78844163008034,
+      "first_request_ttfa_seconds": 0.6321226945146918,
+      "hot_ttfa_seconds": 0.19552290625870228,
+      "secondary_resident_mib": 6209.0
+    },
+    "cache": {
+      "health_seconds": 40.74053238052875,
+      "launch_to_first_pcm_seconds": 41.114420814439654,
+      "first_request_ttfa_seconds": 0.3358404543250799,
+      "hot_ttfa_seconds": 0.19581906776875257,
+      "secondary_resident_mib": 2629.0
+    }
+  },
+  "note": "4090; two alternating runs per variant; warm OS/driver/compiler caches. No claim of changed generation throughput."
+}

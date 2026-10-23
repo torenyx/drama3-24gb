@@ -1,0 +1,23 @@
+{
+  "conditions": "Existing compiler/OS caches; new empty reference cache; sequential preparation and service startup.",
+  "cache_dir": "<NVME_ROOT>/cache/reference-raw-r2",
+  "started_epoch": 1792733355.8969073,
+  "raw_reference_preparation_process_seconds": 22.151982994750142,
+  "service_startup_seconds": 46.884878585115075,
+  "first_request": {
+    "ttfa_seconds": 0.3372142780572176,
+    "request_seconds": 5.531626846641302,
+    "audio_seconds": 30.139501133786847,
+    "pcm_chunks": 14,
+    "file": "trial-0.wav",
+    "raw_workflow_to_wav_seconds": 74.72046570293605,
+    "trial": 0,
+    "gpu_after_mib": {
+      "0": 24022,
+      "1": 4,
+      "2": 1,
+      "3": 1
+    }
+  },
+  "preparation_plus_first_request_excluding_startup_seconds": 27.683609841391444
+}

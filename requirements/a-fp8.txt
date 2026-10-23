@@ -1,0 +1,7 @@
+torch==2.11.0
+torchvision==0.26.0
+torchaudio==2.11.0
+transformers==5.19.0
+tokenizers==0.23.2
+comfy-aimdo==0.5.6
+comfy-kitchen==0.2.40

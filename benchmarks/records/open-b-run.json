@@ -1,0 +1,18 @@
+{
+  "profile": "b-q4",
+  "gpus": 1,
+  "python": "<PROJECT_ROOT>/.venv-b-q4/bin/python",
+  "source": "<MODEL_ROOT>/drama-3",
+  "converted": "<MODEL_ROOT>/derived/speech-q4",
+  "assets": "<PROJECT_ROOT>/examples/librispeech",
+  "prompt": "<PROJECT_ROOT>/examples/librispeech/prompt.txt",
+  "output": "<RUN_ROOT>/rebuilt-public/b-clean",
+  "stages_seconds": {
+    "reference_preparation": 4.300700720399618,
+    "runner": 17.671804813668132
+  },
+  "status": "completed",
+  "timing": "Wall time includes preparation, startup and client overhead; excludes prior model download.",
+  "conversion_reused": true,
+  "wall_seconds": 21.972656128928065
+}

@@ -1,0 +1,198 @@
+{
+  "backend": "ComfyUI-Drama3",
+  "model": "<MODEL_ROOT>/derived/comfy-fp8/drama3_fp8experts_bf16.safetensors",
+  "comfy_root": "<LAB_ROOT>/shared/software/repositories/ComfyUI-a071826fd36147da6a81e9e91257df9968a4b06b",
+  "comfy_version": "0.42.0",
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "devices": [
+    "NVIDIA GeForce RTX 4090",
+    "NVIDIA GeForce RTX 4090"
+  ],
+  "cuda_visible_devices": "2,3",
+  "references": [
+    "0005",
+    "0051"
+  ],
+  "reference_cache": true,
+  "dynamic_vram": true,
+  "disable_comfy_compiler": false,
+  "disable_nvml_pressure": false,
+  "allocator_owner_cleanup": false,
+  "sampling": {
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "top_k": 30,
+    "max_frames_per_chunk": 600
+  },
+  "semantic_sampling_override": {
+    "top_k": null,
+    "top_p": null,
+    "from_chunk": 0
+  },
+  "stalled_chunk_retries": 0,
+  "prompt_ablation": "dialogue-only",
+  "split_long_text": true,
+  "speakers": "one take per line",
+  "reference_processing": "upstream tidy_clip: mono, trim quiet edges, peak normalization",
+  "output_processing": "upstream shorten_long_pauses=True",
+  "imports_seconds": 5.405563285574317,
+  "stages": {
+    "load_codec": 0.20041128806769848,
+    "load_model": 0.5858579874038696
+  },
+  "takes": [
+    {
+      "seed": 0,
+      "first_frame_seconds": 8.38613017834723,
+      "chunks": [
+        {
+          "prompt_rows": 1054,
+          "first_frame_seconds": 3.9869420807808638,
+          "seconds": 7.680472539737821,
+          "frames": 287
+        },
+        {
+          "prompt_rows": 1398,
+          "first_frame_seconds": 0.9272218756377697,
+          "seconds": 6.91994957998395,
+          "frames": 460
+        },
+        {
+          "prompt_rows": 1880,
+          "first_frame_seconds": 1.2228830587118864,
+          "seconds": 2.198509607464075,
+          "frames": 63
+        }
+      ],
+      "generation_seconds": 21.201443929225206,
+      "external_codec": {
+        "type": "decoded",
+        "seconds": 0.9891131650656462,
+        "peak_allocated_gib": 2.7293143272399902,
+        "peak_reserved_gib": 4.37109375
+      },
+      "decode_seconds": 1.0066790860146284,
+      "request_seconds": 22.208467293530703,
+      "first_playable_audio_seconds": 22.208467293530703,
+      "audio_seconds": 28.566326530612244,
+      "rtfx": 1.286280865448719,
+      "peak_dbfs": -1.6621914601166656,
+      "rms_dbfs": -18.61414209636055,
+      "gpu_peak_allocated_gib": [
+        16.255558013916016,
+        14.821760177612305
+      ],
+      "gpu_peak_reserved_gib": [
+        16.830078125,
+        15.375
+      ]
+    },
+    {
+      "seed": 2,
+      "first_frame_seconds": 0.7462418656796217,
+      "chunks": [
+        {
+          "prompt_rows": 1054,
+          "first_frame_seconds": 0.7449711859226227,
+          "seconds": 4.066446313634515,
+          "frames": 257
+        },
+        {
+          "prompt_rows": 1368,
+          "first_frame_seconds": 0.9094797223806381,
+          "seconds": 3.837479153648019,
+          "frames": 226
+        },
+        {
+          "prompt_rows": 1616,
+          "first_frame_seconds": 1.06171521730721,
+          "seconds": 1.999115088954568,
+          "frames": 60
+        }
+      ],
+      "generation_seconds": 9.907417550683022,
+      "external_codec": {
+        "type": "decoded",
+        "seconds": 0.45286292769014835,
+        "peak_allocated_gib": 1.8323874473571777,
+        "peak_reserved_gib": 2.806640625
+      },
+      "decode_seconds": 0.4651765823364258,
+      "request_seconds": 10.37292005866766,
+      "first_playable_audio_seconds": 10.37292005866766,
+      "audio_seconds": 23.31687074829932,
+      "rtfx": 2.2478598713209625,
+      "peak_dbfs": -3.287497674979089,
+      "rms_dbfs": -19.24754668109761,
+      "gpu_peak_allocated_gib": [
+        16.196667671203613,
+        14.756453037261963
+      ],
+      "gpu_peak_reserved_gib": [
+        16.693359375,
+        15.2421875
+      ]
+    },
+    {
+      "seed": 1,
+      "first_frame_seconds": 0.7317202165722847,
+      "chunks": [
+        {
+          "prompt_rows": 1054,
+          "first_frame_seconds": 0.7302869837731123,
+          "seconds": 5.070339072495699,
+          "frames": 340
+        },
+        {
+          "prompt_rows": 1451,
+          "first_frame_seconds": 0.9586280714720488,
+          "seconds": 7.429038431495428,
+          "frames": 512
+        },
+        {
+          "prompt_rows": 1985,
+          "first_frame_seconds": 1.2897084578871727,
+          "seconds": 2.4128555208444595,
+          "frames": 68
+        }
+      ],
+      "generation_seconds": 14.91732787527144,
+      "external_codec": {
+        "type": "decoded",
+        "seconds": 1.2165811769664288,
+        "peak_allocated_gib": 2.956674098968506,
+        "peak_reserved_gib": 4.056640625
+      },
+      "decode_seconds": 1.2336288522928953,
+      "request_seconds": 16.15130722336471,
+      "first_playable_audio_seconds": 16.15130722336471,
+      "audio_seconds": 30.52471655328798,
+      "rtfx": 1.8899223531040565,
+      "peak_dbfs": -1.2802210734299735,
+      "rms_dbfs": -17.72509373292229,
+      "gpu_peak_allocated_gib": [
+        16.282572746276855,
+        14.851261138916016
+      ],
+      "gpu_peak_reserved_gib": [
+        16.8828125,
+        15.45703125
+      ]
+    }
+  ],
+  "codec_placement": "isolated process cuda:1",
+  "keep_tts_resident": true,
+  "tts_refresh_every": 0,
+  "resident_vbar_floor": [
+    {
+      "device": 0,
+      "bytes": 2539126784
+    },
+    {
+      "device": 1,
+      "bytes": 3818262528
+    }
+  ],
+  "elapsed_process_seconds": 60.93936367332935
+}

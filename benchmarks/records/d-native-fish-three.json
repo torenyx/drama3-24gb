@@ -1,0 +1,158 @@
+{
+  "framework": "official Fish Speech",
+  "torch": "2.11.0+cu130",
+  "cuda_visible_devices": "0,1,2",
+  "devices": [
+    "NVIDIA GeForce RTX 4090",
+    "NVIDIA GeForce RTX 4090",
+    "NVIDIA GeForce RTX 4090"
+  ],
+  "cached_references": false,
+  "takes": [
+    {
+      "index": 0,
+      "seed": 1,
+      "chunks": [
+        {
+          "seconds": 29.242432311177254,
+          "prompt_rows": 1096,
+          "frames": 283,
+          "finish": "eos"
+        },
+        {
+          "seconds": 38.08848839811981,
+          "prompt_rows": 1461,
+          "frames": 406,
+          "finish": "eos"
+        },
+        {
+          "seconds": 8.318358916789293,
+          "prompt_rows": 1889,
+          "frames": 75,
+          "finish": "eos"
+        }
+      ],
+      "generation_seconds": 75.66064962372184,
+      "decode_seconds": 0.18019030429422855,
+      "request_seconds": 75.84091404266655,
+      "audio_seconds": 35.48009070294785,
+      "rms_dbfs": -37.148306369781494,
+      "gpu_peak_allocated_gib": [
+        17.40093469619751,
+        17.400450229644775,
+        7.605432510375977
+      ]
+    },
+    {
+      "index": 1,
+      "seed": 0,
+      "chunks": [
+        {
+          "seconds": 31.407422203570604,
+          "prompt_rows": 1096,
+          "frames": 340,
+          "finish": "eos"
+        },
+        {
+          "seconds": 54.2774913944304,
+          "prompt_rows": 1518,
+          "frames": 600,
+          "finish": "length"
+        },
+        {
+          "seconds": 7.373554099351168,
+          "prompt_rows": 2140,
+          "frames": 63,
+          "finish": "eos"
+        }
+      ],
+      "generation_seconds": 93.069730412215,
+      "decode_seconds": 0.22585809789597988,
+      "request_seconds": 93.29562976770103,
+      "audio_seconds": 46.57922902494331,
+      "rms_dbfs": -38.00799608230591,
+      "gpu_peak_allocated_gib": [
+        17.40335464477539,
+        17.402870178222656,
+        8.050315856933594
+      ]
+    },
+    {
+      "index": 2,
+      "seed": 2,
+      "chunks": [
+        {
+          "seconds": 28.93445760756731,
+          "prompt_rows": 1096,
+          "frames": 316,
+          "finish": "eos"
+        },
+        {
+          "seconds": 54.297775296494365,
+          "prompt_rows": 1494,
+          "frames": 600,
+          "finish": "length"
+        },
+        {
+          "seconds": 7.280669050291181,
+          "prompt_rows": 2116,
+          "frames": 62,
+          "finish": "eos"
+        }
+      ],
+      "generation_seconds": 90.52318232879043,
+      "decode_seconds": 0.21733123064041138,
+      "request_seconds": 90.74055789224803,
+      "audio_seconds": 45.41823129251701,
+      "rms_dbfs": -39.520297050476074,
+      "gpu_peak_allocated_gib": [
+        17.40335464477539,
+        17.402870178222656,
+        8.004697322845459
+      ]
+    },
+    {
+      "index": 3,
+      "seed": 1,
+      "chunks": [
+        {
+          "seconds": 26.011423164978623,
+          "prompt_rows": 1096,
+          "frames": 283,
+          "finish": "eos"
+        },
+        {
+          "seconds": 37.202239817008376,
+          "prompt_rows": 1461,
+          "frames": 406,
+          "finish": "eos"
+        },
+        {
+          "seconds": 8.256846876814961,
+          "prompt_rows": 1889,
+          "frames": 75,
+          "finish": "eos"
+        }
+      ],
+      "generation_seconds": 71.48004897125065,
+      "decode_seconds": 0.1638286579400301,
+      "request_seconds": 71.64391441829503,
+      "audio_seconds": 35.48009070294785,
+      "rms_dbfs": -37.148306369781494,
+      "gpu_peak_allocated_gib": [
+        17.403153896331787,
+        17.402669429779053,
+        7.611701011657715
+      ]
+    }
+  ],
+  "stages": {
+    "load_model": 11.578138625249267,
+    "load_codec": 4.786400591954589,
+    "encode_0005": 0.7976690195500851,
+    "encode_0051": 0.13278118707239628
+  },
+  "tower_device": "cuda:2",
+  "codec_device": "cuda:2",
+  "audio_reader": "soundfile"
+}

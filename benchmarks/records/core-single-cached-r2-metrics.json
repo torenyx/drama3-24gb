@@ -1,0 +1,85 @@
+{
+  "reference_cache": "<NVME_ROOT>/cache/reference-vq-v1",
+  "placement": "single-cached",
+  "warmup_enabled": false,
+  "started_epoch": 1792713078.803046,
+  "takes": [
+    {
+      "ttfa_seconds": 0.3414054401218891,
+      "request_seconds": 8.569990038871765,
+      "audio_seconds": 47.368707482993194,
+      "pcm_chunks": 19,
+      "file": "trial-0.wav",
+      "trial": 0,
+      "gpu_after_mib": {
+        "0": 24022,
+        "1": 4,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "ttfa_seconds": 0.19838672876358032,
+      "request_seconds": 8.070434417575598,
+      "audio_seconds": 45.37179138321996,
+      "pcm_chunks": 19,
+      "file": "trial-1.wav",
+      "trial": 1,
+      "gpu_after_mib": {
+        "0": 24022,
+        "1": 4,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "ttfa_seconds": 0.1969966646283865,
+      "request_seconds": 5.463131478056312,
+      "audio_seconds": 30.65034013605442,
+      "pcm_chunks": 14,
+      "file": "trial-2.wav",
+      "trial": 2,
+      "gpu_after_mib": {
+        "0": 24022,
+        "1": 4,
+        "2": 1,
+        "3": 1
+      }
+    }
+  ],
+  "conditions": "Process restart with existing OS/driver/Triton caches; not a machine cold boot.",
+  "gpu_idle_mib": {
+    "0": 1,
+    "1": 1,
+    "2": 1,
+    "3": 1
+  },
+  "server_pid": 798778,
+  "health_ready_seconds": 46.646281998604536,
+  "gpu_ready_mib": {
+    "0": 23826,
+    "1": 4,
+    "2": 1,
+    "3": 1
+  },
+  "application_ready_seconds": 46.684277046471834,
+  "launch_to_first_user_pcm_seconds": 47.02568248659372,
+  "non_streaming_check": {
+    "status": 500,
+    "body": "{\"error\":{\"message\":\"This low-memory vocoder requires streaming audio requests\",\"type\":\"server_error\",\"param\":null,\"code\":null}}"
+  },
+  "after_rejection": {
+    "ttfa_seconds": 0.19247127696871758,
+    "request_seconds": 5.120223481208086,
+    "audio_seconds": 28.69986394557823,
+    "pcm_chunks": 13,
+    "file": "after-rejection.wav"
+  },
+  "gpu_peak_mib": {
+    "0": 24022,
+    "1": 4,
+    "2": 3102,
+    "3": 3824
+  },
+  "finished_epoch": 1792713154.5539134
+}

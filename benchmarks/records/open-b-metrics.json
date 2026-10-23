@@ -1,0 +1,397 @@
+{
+  "backend": "speech.cpp",
+  "model": "<MODEL_ROOT>/derived/speech-q4/Drama-35B-A3B-v3-Q4_K.gguf",
+  "voice": "<MODEL_ROOT>/cache/b-q4/d5b403a6b0cac8b4e283.voice.gguf",
+  "devices": [
+    "Vulkan3"
+  ],
+  "threads": 16,
+  "startup_warmup": false,
+  "sampling": {
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "top_k": 30
+  },
+  "workers": {
+    "Vulkan3": {
+      "ready_seconds": 7.001070650294423,
+      "ready": {
+        "type": "ready",
+        "protocol": 3,
+        "version": "0.8.11",
+        "defaults": {},
+        "model": {
+          "name": "drama-3",
+          "organization": "fishaudio",
+          "basename": "Drama",
+          "size_label": "35B-A3B",
+          "version": "v3",
+          "license": "LicenseRef-Fish-Audio-Community-License-1.0",
+          "source": {
+            "repository": "https://huggingface.co/fishaudio/drama-3",
+            "revision": "e0a9218aa48888270f06ef1ed9ea67622c0e17d2"
+          },
+          "weight_type": "Q4_K",
+          "architecture": "drama3",
+          "layout": 1,
+          "task": "synthesis",
+          "sample_rate": 44100,
+          "incremental": true,
+          "languages": [
+            "af",
+            "am",
+            "ar",
+            "as",
+            "az",
+            "be",
+            "bg",
+            "bn",
+            "bo",
+            "br",
+            "bs",
+            "ca",
+            "cs",
+            "cy",
+            "da",
+            "de",
+            "el",
+            "en",
+            "es",
+            "et",
+            "eu",
+            "fa",
+            "fi",
+            "fo",
+            "fr",
+            "gl",
+            "gu",
+            "he",
+            "hi",
+            "hr",
+            "ht",
+            "hu",
+            "hy",
+            "id",
+            "is",
+            "it",
+            "ja",
+            "jv",
+            "ka",
+            "kk",
+            "km",
+            "kn",
+            "ko",
+            "la",
+            "lt",
+            "lv",
+            "mi",
+            "ml",
+            "mn",
+            "mr",
+            "ms",
+            "my",
+            "ne",
+            "nl",
+            "nn",
+            "no",
+            "pa",
+            "pl",
+            "ps",
+            "pt",
+            "ro",
+            "ru",
+            "sa",
+            "sd",
+            "si",
+            "sk",
+            "sl",
+            "sn",
+            "sq",
+            "sr",
+            "sv",
+            "sw",
+            "ta",
+            "te",
+            "th",
+            "tl",
+            "tr",
+            "uk",
+            "ur",
+            "vi",
+            "yi",
+            "yo",
+            "zh"
+          ],
+          "voices": [
+            {
+              "name": "none",
+              "language": "",
+              "gender": "",
+              "description": "speaks every speaker of the text in a voice of the model's choosing"
+            },
+            {
+              "name": "makima",
+              "language": "",
+              "gender": "",
+              "description": "speaker 0"
+            }
+          ],
+          "voice_files": true,
+          "voice_codec": "2cf2ec268a087bd2ad91bfbb6796b0429fb03a73cdb8fd07f445d503e9a14d37",
+          "voice_recordings": false,
+          "max_text_tokens": 8192,
+          "options": [
+            {
+              "name": "voice",
+              "type": "string",
+              "required": true,
+              "steers": true,
+              "choices": [
+                "none",
+                "makima"
+              ]
+            },
+            {
+              "name": "language",
+              "type": "string",
+              "required": false,
+              "steers": false,
+              "default": "auto",
+              "choices": [
+                "af",
+                "am",
+                "ar",
+                "as",
+                "az",
+                "be",
+                "bg",
+                "bn",
+                "bo",
+                "br",
+                "bs",
+                "ca",
+                "cs",
+                "cy",
+                "da",
+                "de",
+                "el",
+                "en",
+                "es",
+                "et",
+                "eu",
+                "fa",
+                "fi",
+                "fo",
+                "fr",
+                "gl",
+                "gu",
+                "he",
+                "hi",
+                "hr",
+                "ht",
+                "hu",
+                "hy",
+                "id",
+                "is",
+                "it",
+                "ja",
+                "jv",
+                "ka",
+                "kk",
+                "km",
+                "kn",
+                "ko",
+                "la",
+                "lt",
+                "lv",
+                "mi",
+                "ml",
+                "mn",
+                "mr",
+                "ms",
+                "my",
+                "ne",
+                "nl",
+                "nn",
+                "no",
+                "pa",
+                "pl",
+                "ps",
+                "pt",
+                "ro",
+                "ru",
+                "sa",
+                "sd",
+                "si",
+                "sk",
+                "sl",
+                "sn",
+                "sq",
+                "sr",
+                "sv",
+                "sw",
+                "ta",
+                "te",
+                "th",
+                "tl",
+                "tr",
+                "uk",
+                "ur",
+                "vi",
+                "yi",
+                "yo",
+                "zh"
+              ]
+            },
+            {
+              "name": "seed",
+              "type": "int",
+              "required": false,
+              "steers": true,
+              "minimum": 0,
+              "maximum": 9007199254740991
+            },
+            {
+              "name": "max_seconds",
+              "type": "float",
+              "required": false,
+              "steers": true,
+              "default": 47.55446712018141,
+              "exclusive_minimum": 0,
+              "maximum": 95.10893424036281
+            },
+            {
+              "name": "top_k",
+              "type": "int",
+              "required": false,
+              "steers": true,
+              "default": 30,
+              "minimum": 1,
+              "maximum": 4097
+            },
+            {
+              "name": "top_p",
+              "type": "float",
+              "required": false,
+              "steers": true,
+              "default": 0.9,
+              "exclusive_minimum": 0,
+              "maximum": 1
+            },
+            {
+              "name": "temperature",
+              "type": "float",
+              "required": false,
+              "steers": true,
+              "default": 1,
+              "exclusive_minimum": 0
+            },
+            {
+              "name": "experts_on_cpu",
+              "type": "bool",
+              "required": false,
+              "steers": true,
+              "default": true
+            }
+          ],
+          "file_bytes": 20787264352,
+          "weight_bytes": 20777094148,
+          "device": "Vulkan3",
+          "threads": 0
+        }
+      }
+    }
+  },
+  "takes": [
+    {
+      "device": "Vulkan3",
+      "seed": 1,
+      "ttfa_seconds": 0.23743853904306889,
+      "chunks": [
+        {
+          "seconds": 0.23743853904306889,
+          "samples": 8192
+        },
+        {
+          "seconds": 0.35440144315361977,
+          "samples": 16384
+        },
+        {
+          "seconds": 0.5830401554703712,
+          "samples": 32768
+        },
+        {
+          "seconds": 1.0214294958859682,
+          "samples": 65536
+        },
+        {
+          "seconds": 1.8971733525395393,
+          "samples": 131072
+        },
+        {
+          "seconds": 3.6565295308828354,
+          "samples": 262144
+        },
+        {
+          "seconds": 5.129313198849559,
+          "samples": 10240
+        },
+        {
+          "seconds": 5.285789335146546,
+          "samples": 8192
+        },
+        {
+          "seconds": 5.408797934651375,
+          "samples": 16384
+        },
+        {
+          "seconds": 5.6435264348983765,
+          "samples": 32768
+        },
+        {
+          "seconds": 6.109549170359969,
+          "samples": 65536
+        },
+        {
+          "seconds": 7.034408997744322,
+          "samples": 131072
+        },
+        {
+          "seconds": 8.228538289666176,
+          "samples": 165888
+        },
+        {
+          "seconds": 8.478061871603131,
+          "samples": 8192
+        },
+        {
+          "seconds": 8.602657875046134,
+          "samples": 16384
+        },
+        {
+          "seconds": 8.839027369394898,
+          "samples": 32768
+        },
+        {
+          "seconds": 9.314022846519947,
+          "samples": 65536
+        },
+        {
+          "seconds": 10.104575684294105,
+          "samples": 108544
+        }
+      ],
+      "request_seconds": 10.10573461279273,
+      "audio_seconds": 26.70294784580499,
+      "rtfx": 2.642355936400907,
+      "stop": "complete"
+    }
+  ],
+  "rounds": [
+    {
+      "seed": 1,
+      "wall_seconds": 10.106209892779589,
+      "aggregate_rtfx": 2.642231670339935
+    }
+  ]
+}
